@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.webp");
+}
+
+#NodeContainer{
+    background-color: rgba(0.4, 0.4, 0.4, 0.6);
+    margin-top: 150px;
+    height: 700px;
+    width: 100vw;
+}
+
+.node{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: absolute;
+    background-color: azure;
+    border-radius: 15px;
+}
+
+.nodeTimeRemaining{
+    position: absolute;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(0.4, 0.4, 0.4, 0.9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nodeName{
+    margin-left: 16px;
+    font-size: 24px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.dateLineNow{
+    position: absolute;
+    background-color: white;
+    height: 700px;
+    width: 2px;
+}
+
+.dateLine{
+    position: absolute;
+    background-color: gray;
+    height: 700px;
+    width: 1px;
+}
+
+.dateNumber{
+    position: absolute;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
