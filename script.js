@@ -45,13 +45,12 @@ function calculateDateOffset(date){
 function getSelectedGames(){
     var games = new Array();
 
-    if(document.getElementById("genshinCheckbox").checked) games.push("genshin");
-    if(document.getElementById("starrailCheckbox").checked) games.push("starrail");
-    if(document.getElementById("wuwaCheckbox").checked) games.push("wuwa");
+    if(isGameSelected("Genshin")) games.push("genshin");
+    if(isGameSelected("Starrail")) games.push("starrail");
+    if(isGameSelected("Wuwa")) games.push("wuwa");
 
     return games;
 }
-
 
 function createCalendarNode(row, name, start, end, color){
     var container = document.getElementById("NodeContainer");
@@ -60,7 +59,7 @@ function createCalendarNode(row, name, start, end, color){
     node.classList += "node";
     node.style.width = calculateDateOffset(end) - calculateDateOffset(start) + "px";
     node.style.marginLeft = calculateDateOffset(start) + "px";
-    node.style.marginTop = 100 + row * 50 + "px";
+    node.style.marginTop = 65 + row * 56 + "px";
     node.style.backgroundColor = color;
 
     var text = document.createElement("h1");
@@ -68,14 +67,25 @@ function createCalendarNode(row, name, start, end, color){
     text.classList += "nodeName";
     node.appendChild(text);
 
+    var timeRemaining = document.createElement("h1");
+    timeRemaining.classList += "nodeTimeRemaining";
     var dateNow = new Date();
     var endDate = new Date(end);
 
-    var timeRemaining = document.createElement("h1");
-    timeRemaining.classList += "nodeTimeRemaining";
-    var dayRemaining = endDate.getDate() - dateNow.getDate();
-    var hourRemaining = endDate.getHours() - dateNow.getHours();
-    timeRemaining.innerText = dayRemaining + "d " + hourRemaining + "h";
+    if(dateNow < endDate){
+        var dayRemaining = endDate.getDate() - dateNow.getDate();
+        var hourRemaining = endDate.getHours() - dateNow.getHours();
+        if(hourRemaining < 0){
+            dayRemaining--;
+            hourRemaining += 24;
+        }
+
+        timeRemaining.innerText = dayRemaining + "d " + hourRemaining + "h";
+    }
+    else{
+        timeRemaining.innerText = "Ended";
+    }
+
     node.appendChild(timeRemaining);
 
     container.appendChild(node);
@@ -150,18 +160,47 @@ function populateNodeDisplay(){
     localStorage.setItem("games", games.join("|"));
 }
 
+function toggleSettings(){
+    var settingsWindow = document.getElementById("settingsWindow");
+    settingsWindow.hidden = !settingsWindow.hidden;
+
+    var settingsBackdrop = document.getElementById("settingsBackdrop");
+    settingsBackdrop.hidden = !settingsBackdrop.hidden
+}
+
+function isGameSelected(game){
+    return document.getElementById(game + "GameButton").classList.contains("settingsGameDisabled") == false;
+}
+
+function setGameSelected(game, enabled){
+    var gameButton = document.getElementById(game + "GameButton");
+    if(enabled && gameButton.classList.contains("settingsGameDisabled"))
+        gameButton.classList.remove("settingsGameDisabled");
+
+    if(enabled == false && gameButton.classList.contains("settingsGameDisabled") == false)
+        gameButton.classList.add("settingsGameDisabled");
+}
+
+function toggleGameSelected(game){
+    setGameSelected(game, !isGameSelected(game));  
+    populateNodeDisplay();
+}
+
 var localGames = localStorage.getItem("games")
 if(localGames != null){
     var localGamesArray = localGames.split("|");
 
-    document.getElementById("genshinCheckbox").checked = localGamesArray.indexOf("genshin") >= 0;
-    document.getElementById("starrailCheckbox").checked = localGamesArray.indexOf("starrail") >= 0;
-    document.getElementById("wuwaCheckbox").checked = localGamesArray.indexOf("wuwa") >= 0;
+    setGameSelected("Genshin", localGamesArray.indexOf("genshin") >= 0);
+    setGameSelected("Starrail", localGamesArray.indexOf("starrail") >= 0);
+    setGameSelected("Wuwa", localGamesArray.indexOf("wuwa") >= 0);
 }
+document.getElementById("GenshinGameButton").addEventListener("click", (e) => toggleGameSelected("Genshin"));
+document.getElementById("StarrailGameButton").addEventListener("click", (e) => toggleGameSelected("Starrail"));
+document.getElementById("WuwaGameButton").addEventListener("click", (e) => toggleGameSelected("Wuwa"));
 
-document.getElementById("genshinCheckbox").addEventListener("click", (e) => populateNodeDisplay());
-document.getElementById("starrailCheckbox").addEventListener("click", (e) => populateNodeDisplay());
-document.getElementById("wuwaCheckbox").addEventListener("click", (e) => populateNodeDisplay());
+document.getElementById("settingsButton").addEventListener("click", (e) => toggleSettings());
+document.getElementById("settingsExitButton").addEventListener("click", (e) => toggleSettings());
+document.getElementById("settingsBackdrop").addEventListener("click", (e) => toggleSettings());
 
 var jsonData = JSON.parse(data);
 
