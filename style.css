@@ -7,6 +7,21 @@ body{
     background-image: url("bg.webp");
 }
 
+.optionsContainer{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 180px;
+    height: 70px;
+    background-color: rgba(0.4, 0.4, 0.4, 0.8);
+    padding: 20px;
+}
+
+.optionsLabel{
+    color: white;
+    font-size: 20px;
+}
+
 #NodeContainer{
     background-color: rgba(0.4, 0.4, 0.4, 0.6);
     margin-top: 150px;
