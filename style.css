@@ -122,15 +122,31 @@ body{
 
 #NodeContainer{
     background-color: rgba(0.4, 0.4, 0.4, 0.6);
-    margin-top: 100px;
-    height: 700px;
+    margin-top: 40px;
+    height: 760px;
     width: 100vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#NodeContainer::-webkit-scrollbar {
+    height: 10px;
+}   
+
+#NodeContainer::-webkit-scrollbar-track {
+    background-color: rgba(0.4, 0.4, 0.4, 0.2);
+}   
+
+#NodeContainer::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
 }
 
 .node{
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 45px;
     position: absolute;
     background-color: azure;
     border-radius: 15px;
@@ -140,9 +156,9 @@ body{
     position: absolute;
     right: 10px;
     color: white;
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 8px;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 12px;
     background-color: rgba(0.4, 0.4, 0.4, 0.9);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -156,20 +172,30 @@ body{
 .dateLineNow{
     position: absolute;
     background-color: white;
-    height: 700px;
+    height: 100%;
     width: 2px;
 }
 
 .dateLine{
     position: absolute;
     background-color: gray;
-    height: 700px;
+    height: 100%;
     width: 1px;
 }
 
 .dateNumber{
-    margin-top: 5px;
+    margin-top: 28px;
     position: absolute;
     color: rgb(238, 238, 238);
+    font-size: 28px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dateMonth{
+    margin-top: 2px;
+    position: absolute;
+    color: rgb(207, 75, 75);
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
