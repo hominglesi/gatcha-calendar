@@ -14,6 +14,10 @@ var nodeData = JSON.parse(`
             "name": "Mutual Security Enhancing Simulation", "game": "genshin", "category": "event",
             "startTime": "2024-06-07T09:00:00Z", "endTime": "2024-06-17T03:00:00Z"
         },
+        {
+            "name": "Recollective Writing", "game": "genshin", "category": "event",
+            "startTime": "2024-06-18T09:00:00Z", "endTime": "2024-06-24T03:00:00Z"
+        },
         {   
             "name": "Spiral Abyss", "game": "genshin", "category": "abyss",
             "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T03:00:00Z" 
