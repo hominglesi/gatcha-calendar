@@ -59,6 +59,10 @@ var nodeData = JSON.parse(`
             "startTime": "2024-05-30T03:00:00Z", "endTime": "2024-06-17T03:00:00Z"
         },
         {
+            "name": "Chord Cleansing", "game": "wuwa", "category": "event3",
+            "startTime": "2024-06-20T03:00:00Z", "endTime": "2024-06-27T03:00:00Z"
+        },
+        {
             "name": "Second Coming of Solaris", "game": "wuwa", "category": "event4",
             "startTime": "2024-06-13T03:00:00Z", "endTime": "2024-06-27T03:00:00Z"
         },
