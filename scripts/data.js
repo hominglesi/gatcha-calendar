@@ -43,6 +43,10 @@ var nodeData = JSON.parse(`
             "startTime": "2024-05-12T22:00:00Z", "endTime": "2024-06-18T22:00:00Z"
         },
         {
+            "name": "Apocalyptic Shadow", "game": "starrail", "category": "moc",
+            "startTime": "2024-06-19T02:00:00Z", "endTime": "2024-07-26T03:00:00Z"
+        },
+        {
             "name": "Memory of Chaos", "game": "starrail", "category": "moc2",
             "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T03:00:00Z"
         },
