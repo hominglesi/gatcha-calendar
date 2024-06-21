@@ -35,8 +35,16 @@ var nodeData = JSON.parse(`
             "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-17T03:00:00Z"
         },
         {
+            "name": "Heartfelt Doodlings Web", "game": "genshin", "category": "event2",
+            "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T16:00:00Z"
+        },
+        {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "category": "event7",
             "startTime": "2024-05-08T03:00:00Z", "endTime": "2024-06-17T03:00:00Z"
+        },
+        {
+            "name": "Origami Bird Clash", "game": "starrail", "category": "event7",
+            "startTime": "2024-06-21T11:00:00Z", "endTime": "2024-07-29T03:00:00Z"
         },
         {
             "name": "Memory of Chaos", "game": "starrail", "category": "moc",
