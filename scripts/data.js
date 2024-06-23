@@ -18,6 +18,10 @@ var nodeData = JSON.parse(`
             "name": "Recollective Writing", "game": "genshin", "category": "event",
             "startTime": "2024-06-18T09:00:00Z", "endTime": "2024-06-24T03:00:00Z"
         },
+        {
+            "name": "Endless Forms", "game": "genshin", "category": "event",
+            "startTime": "2024-06-25T09:00:00Z", "endTime": "2024-07-01T03:00:00Z"
+        },
         {   
             "name": "Spiral Abyss", "game": "genshin", "category": "abyss",
             "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T03:00:00Z" 
