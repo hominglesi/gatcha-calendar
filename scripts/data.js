@@ -43,6 +43,10 @@ var nodeData = JSON.parse(`
             "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T16:00:00Z"
         },
         {
+            "name": "Planar Fissure", "game": "genshin", "category": "event2",
+            "startTime": "2024-06-28T04:00:00Z", "endTime": "2024-07-05T04:00:00Z"
+        },
+        {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "category": "event7",
             "startTime": "2024-05-08T03:00:00Z", "endTime": "2024-06-17T03:00:00Z"
         },
