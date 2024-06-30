@@ -22,6 +22,10 @@ var nodeData = JSON.parse(`
             "name": "Endless Forms", "game": "genshin", "category": "event",
             "startTime": "2024-06-25T09:00:00Z", "endTime": "2024-07-01T03:00:00Z"
         },
+        {
+            "name": "Spino Doubleblaster", "game": "genshin", "category": "event",
+            "startTime": "2024-07-02T09:00:00Z", "endTime": "2024-07-08T03:00:00Z"
+        },
         {   
             "name": "Spiral Abyss", "game": "genshin", "category": "abyss",
             "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T03:00:00Z" 
@@ -33,6 +37,10 @@ var nodeData = JSON.parse(`
         {   
             "name": "Spiral Abyss", "game": "genshin", "category": "abyss",
             "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T03:00:00Z"
+        },
+        {   
+            "name": "Imaginarium Theather", "game": "genshin", "category": "theather",
+            "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-07-31T03:00:00Z"
         },
         {
             "name": "The Legend of the Galactic Baseballer", "game": "starrail", "category": "event2",
@@ -75,6 +83,10 @@ var nodeData = JSON.parse(`
             "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T03:00:00Z"
         },
         {
+            "name": "Tower of Adversity", "game": "wuwa", "category": "tower",
+            "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T03:00:00Z"
+        },
+        {
             "name": "Overdash Club", "game": "wuwa", "category": "event3",
             "startTime": "2024-05-30T03:00:00Z", "endTime": "2024-06-17T03:00:00Z"
         },
@@ -87,8 +99,16 @@ var nodeData = JSON.parse(`
             "startTime": "2024-06-13T03:00:00Z", "endTime": "2024-06-27T03:00:00Z"
         },
         {
+            "name": "Tales from Mt. Firmament", "game": "wuwa", "category": "event4",
+            "startTime": "2024-06-27T07:00:00Z", "endTime": "2024-08-13T03:00:00Z"
+        },
+        {
             "name": "Alloy Smelt", "game": "wuwa", "category": "event5",
             "startTime": "2024-06-06T07:00:00Z", "endTime": "2024-06-27T03:00:00Z"
+        },
+        {
+            "name": "Traces of Mt. Firmament", "game": "wuwa", "category": "event5",
+            "startTime": "2024-06-27T07:00:00Z", "endTime": "2024-08-13T03:00:00Z"
         },
         {
             "name": "Wuthering Exploration", "game": "wuwa", "category": "event6",

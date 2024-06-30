@@ -1,5 +1,5 @@
 var nodeContainerStartDate = new Date("2024-05-31T22:00:00Z");
-var nodeContainerEndDate = new Date("2024-07-14T22:00:00Z");
+var nodeContainerEndDate = new Date("2024-07-30T22:00:00Z");
 var dateLength = 62;
 
 var currentTime = new Date();
@@ -66,7 +66,7 @@ function nodeDisplayCreateNode(startDate, endDate, row, title, color){
     node.classList += "node";
     node.style.width = nodeWidth + "px";
     node.style.marginLeft = startOffset + "px";
-    node.style.marginTop = 75 + row * 55 + "px";
+    node.style.marginTop = 75 + row * 52 + "px";
     node.style.backgroundColor = color;
     if(startOffscreen){
         node.style.borderTopLeftRadius = 0;
