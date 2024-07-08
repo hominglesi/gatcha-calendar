@@ -26,6 +26,10 @@ var nodeData = JSON.parse(`
             "name": "Spino Doubleblaster", "game": "genshin", "category": "event",
             "startTime": "2024-07-02T09:00:00Z", "endTime": "2024-07-08T03:00:00Z"
         },
+        {
+            "name": "Lay Line Overflow", "game": "genshin", "category": "event",
+            "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-07-15T03:00:00Z"
+        },
         {   
             "name": "Spiral Abyss", "game": "genshin", "category": "abyss",
             "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T03:00:00Z" 
@@ -83,12 +87,20 @@ var nodeData = JSON.parse(`
             "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T03:00:00Z"
         },
         {
+            "name": "Pure Fiction", "game": "starrail", "category": "pf",
+            "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T03:00:00Z"
+        },
+        {
             "name": "Tower of Adversity", "game": "wuwa", "category": "tower",
             "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T03:00:00Z"
         },
         {
             "name": "Tower of Adversity", "game": "wuwa", "category": "tower",
             "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T03:00:00Z"
+        },
+        {
+            "name": "Tower of Adversity", "game": "wuwa", "category": "tower",
+            "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-07-22T03:00:00Z"
         },
         {
             "name": "Overdash Club", "game": "wuwa", "category": "event3",
