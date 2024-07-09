@@ -111,6 +111,10 @@ var nodeData = JSON.parse(`
             "startTime": "2024-06-20T03:00:00Z", "endTime": "2024-06-27T03:00:00Z"
         },
         {
+            "name": "Lady Bonajade Handbook Web", "game": "starrail", "category": "event3",
+            "startTime": "2024-07-09T11:00:00Z", "endTime": "2024-07-16T16:00:00Z"
+        },
+        {
             "name": "Second Coming of Solaris", "game": "wuwa", "category": "event4",
             "startTime": "2024-06-13T03:00:00Z", "endTime": "2024-06-27T03:00:00Z"
         },
@@ -129,6 +133,10 @@ var nodeData = JSON.parse(`
         {
             "name": "Wuthering Exploration", "game": "wuwa", "category": "event6",
             "startTime": "2024-06-13T07:00:00Z", "endTime": "2024-06-27T03:00:00Z"
+        },
+        {
+            "name": "Fragrant Fantasy Web", "game": "genshin", "category": "event6",
+            "startTime": "2024-07-09T11:00:00Z", "endTime": "2024-07-15T16:00:00Z"
         }
     ]
 }`);
