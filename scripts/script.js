@@ -1,9 +1,9 @@
 function getSelectedGames(){
     var games = new Array();
 
-    if(isGameSelected("Genshin")) games.push("genshin");
-    if(isGameSelected("Starrail")) games.push("starrail");
-    if(isGameSelected("Wuwa")) games.push("wuwa");
+    /*if(isGameSelected("Genshin"))*/ games.push("genshin");
+    /*if(isGameSelected("Starrail"))*/ games.push("starrail");
+    /*if(isGameSelected("Wuwa"))*/ games.push("wuwa");
 
     return games;
 }
@@ -35,6 +35,7 @@ function toggleGameSelected(game){
     localStorage.setItem("games", getSelectedGames().join("|"));
 }
 
+/*
 var localGames = localStorage.getItem("games")
 if(localGames != null){
     var localGamesArray = localGames.split("|");
@@ -42,14 +43,14 @@ if(localGames != null){
     setGameSelected("Genshin", localGamesArray.indexOf("genshin") >= 0);
     setGameSelected("Starrail", localGamesArray.indexOf("starrail") >= 0);
     setGameSelected("Wuwa", localGamesArray.indexOf("wuwa") >= 0);
-}
-document.getElementById("GenshinGameButton").addEventListener("click", (e) => toggleGameSelected("Genshin"));
-document.getElementById("StarrailGameButton").addEventListener("click", (e) => toggleGameSelected("Starrail"));
-document.getElementById("WuwaGameButton").addEventListener("click", (e) => toggleGameSelected("Wuwa"));
+}*/
+//document.getElementById("GenshinGameButton").addEventListener("click", (e) => toggleGameSelected("Genshin"));
+//document.getElementById("StarrailGameButton").addEventListener("click", (e) => toggleGameSelected("Starrail"));
+//document.getElementById("WuwaGameButton").addEventListener("click", (e) => toggleGameSelected("Wuwa"));
 
-document.getElementById("settingsButton").addEventListener("click", (e) => toggleSettings());
-document.getElementById("settingsExitButton").addEventListener("click", (e) => toggleSettings());
-document.getElementById("settingsBackdrop").addEventListener("click", (e) => toggleSettings());
+//document.getElementById("settingsButton").addEventListener("click", (e) => toggleSettings());
+//document.getElementById("settingsExitButton").addEventListener("click", (e) => toggleSettings());
+//document.getElementById("settingsBackdrop").addEventListener("click", (e) => toggleSettings());
 
 nodeDisplayPopulateNodeDisplay();
 nodeDisplayScrollToNow();
