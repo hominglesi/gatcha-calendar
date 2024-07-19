@@ -2,7 +2,6 @@ var nodeContainerStartDate = new Date("2024-05-31T22:00:00Z");
 var nodeContainerEndDate = new Date("2024-07-30T22:00:00Z");
 var dateLength = 62;
 
-var currentTime = new Date();
 var nodeContainer = document.getElementById("NodeContainer");
 
 var scrollSpeed = 80;
@@ -114,7 +113,7 @@ function nodeDisplayPopulateNodeDisplay(){
     var games = getSelectedGames();
     var categories = new Array();
 
-    nodeData.nodes.forEach(element => {
+    eventData.events.forEach(element => {
         if(games.indexOf(element.game) < 0) return;
 
         var color = "#ffcc66";
