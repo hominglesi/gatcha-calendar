@@ -9,8 +9,8 @@ ongoingEvents.forEach(event => {
 function createEventCard(event){
     var eventCard = document.createElement("div");
     eventCard.classList += "event-card";
-    eventCard.style.width = "350px";
-    eventCard.style.height = "300px";
+    eventCard.style.width = "320px";
+    eventCard.style.height = "270px";
 
     var topPart = document.createElement("div");
     topPart.classList += "top-part";

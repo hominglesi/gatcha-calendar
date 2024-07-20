@@ -65,7 +65,7 @@ function nodeDisplayCreateNode(startDate, endDate, row, title, color){
     node.classList += "node";
     node.style.width = nodeWidth + "px";
     node.style.marginLeft = startOffset + "px";
-    node.style.marginTop = 75 + row * 52 + "px";
+    node.style.marginTop = 75 + row * 50 + "px";
     node.style.backgroundColor = color;
     if(startOffscreen){
         node.style.borderTopLeftRadius = 0;
@@ -125,41 +125,11 @@ function nodeDisplayPopulateNodeDisplay(){
         }
 
         switch(element.category){
-            case "abyss": 
-                color = "#0066cc";
+            case "abyss": case "event2": case "moc2": case "tower": case "event4": case "event6":
+                color = "#385CA5";
                 break;
-            case "event":
-                color = "#00ff99";
-                break;
-            case "event2":
-                color = "#9999ff";
-                break;
-            case "moc":
-                color = "#ff5050";
-                break;
-            case "moc2":
-                color = "#ff6666";
-                break;
-            case "pf":
-                color = "#ff66cc";
-                break;
-            case "tower":
-                color = "#ff9900";
-                break;
-            case "event3":
-                color = "#9999ff";
-                break;
-            case "event4":
-                color = "#00ffcc";
-                break;
-            case "event5":
-                color = "#cc3399";
-                break;
-            case "event6":
-                color = "#66ff33";
-                break;
-            case "event7":
-                color = "#ff9966";
+            case "event": case "moc": case "pf": case "event3": case "event5": case "event7": case "theather":
+                color = "#2E4A82"; 
                 break;
         }
 
