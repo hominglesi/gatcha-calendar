@@ -6,35 +6,17 @@
 	<title>Gatcha Calendar</title>
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-	<script src="scripts/data.js" defer></script>
-	<script src="scripts/global.js" defer></script>
-	<script src="scripts/nodeDisplay.js" defer></script>
-	<script src="scripts/script.js" defer></script>
 
 	<link rel="stylesheet" href="styles/global.css">
-	<link rel="stylesheet" href="styles/timeline.css">
 	
+	<script defer>
+		window.location.href = "/gatcha-calendar/timeline";
+	</script>
 </head>
 <body>
 	<div class="header">
 		<img class="burger-icon" src="img/burger-icon.png">
 		<h1 class="header-title">Gatcha Calendar</h1>
 	</div>
-
-	<div class="sidebar" style="display: none;">
-        <div class="sidebar-link"><h1>Event Timeline</h1></div>
-        <div class="sidebar-link" onclick="navigateTo('/gatcha-calendar/ongoing')"><h1>Ongoing Events</h1></div>
-    </div>
-
-	<div class="content-container">
-        <h1 class="page-title">Event Timeline</h1>
-        <div id="NodeContainer">
-
-		</div>
-    </div>
 </body>
 </html>

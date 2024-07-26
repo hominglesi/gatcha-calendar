@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatcha Calendar</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/global.js" defer></script>
+    <script src="scripts/timeline.js" defer></script>
+
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/timeline.css">
+</head>
+<body>
+    <div class="header">
+        <img class="burger-icon" src="img/burger-icon.png">
+        <h1 class="header-title">Gatcha Calendar</h1>
+    </div>
+    <div class="sidebar" style="display: none;">
+        <div class="sidebar-link"><h1>Timeline</h1></div>
+        <div class="sidebar-link" onclick="navigateTo('/gatcha-calendar/ongoing')"><h1>Ongoing Events</h1></div>
+    </div>
+    <div class="content-container">
+        <h1 class="page-title">Timeline</h1>
+        <div class="timeline-selection-container">
+            <div class="timeline-selection-button" onclick="populateTimeline('genshin')"><h1>Genshin Impact</h1></div>
+            <div class="timeline-selection-button" onclick="populateTimeline('starrail')"><h1>Honkai: Star Rail</h1></div>
+            <div class="timeline-selection-button" onclick="populateTimeline('wuwa')"><h1>Wuthering Waves</h1></div>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-container-inner"> 
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
