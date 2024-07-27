@@ -32,6 +32,11 @@ var eventData = JSON.parse(`
             "link": "https://www.hoyolab.com/article/31070415"
         },
         {
+            "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
+            "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/31507365"
+        },
+        {
             "name": "Illuminating Lightning", "game": "genshin", "image": "clorinde-banner", "color": "#46388D",
             "category": "character", "startTime": "2024-06-05T03:00:00Z", "endTime": "2024-06-25T16:59:59Z",
             "link": "https://www.hoyolab.com/article/29435758"

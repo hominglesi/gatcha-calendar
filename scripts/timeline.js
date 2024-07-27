@@ -7,7 +7,7 @@ const nodeHeight = 50;
 const nodeSpacing = 18;
 const dateWidth = 35;
 const scrollSpeed = 80;
-const genshinCategoryOrder = ["event", "character", "character2", "abyss", "theather", "web"];
+const genshinCategoryOrder = ["event", "event2", "character", "character2", "abyss", "theather", "web"];
 const starrailCategoryOrder = ["event", "event2", "event3", "character", "character2", "moc", "apocalyptic", "pf", "web"];
 const wuwaCategoryOrder = ["event", "event2", "event3", "event4", "character", "character2", "tower", "illusiverealm"];
 
