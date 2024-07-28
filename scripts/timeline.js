@@ -69,6 +69,7 @@ function createNode(event){
 
     var nodeStartHorizontalOffset = getDateHorizontalOffset(displayStartDate);
     var nodeTotalWidth = getDateHorizontalOffset(displayEndDate) - getDateHorizontalOffset(displayStartDate);
+    var nodeBlockWidth = nodeTotalWidth - 30;
     var nodeVerticalOffset = getEventVerticalOffset(event.game, event.category);
 
     var node = document.createElement("div");
@@ -94,30 +95,59 @@ function createNode(event){
 
     var image = document.createElement("img");
     image.src = "img/" + event.image + ".png";
-    if(nodeTotalWidth < 250){
-        image.style.width = 130 + "px";
-    }
     nodeInner.appendChild(image);
 
     var imageFadeover = document.createElement("div");
     imageFadeover.classList += "timeline-node-image-fadeover";
     imageFadeover.style.background = "linear-gradient(to right, " + event.color +", rgba(0, 0, 0, 0))"
     if(nodeTotalWidth < 250){
-        imageFadeover.style.width = 50 + "px";
-        imageFadeover.style.right = 80 + "px";
+        imageFadeover.style.right = nodeTotalWidth - 120 + "px";
     }
     nodeInner.appendChild(imageFadeover);
 
+    var nodeNameArea = nodeBlockWidth - 250;
+    nodeNameArea = Math.min(Math.max(nodeNameArea, 250), nodeBlockWidth);
     var nodeName = document.createElement("span");
     nodeName.innerText = event.name;
-    nodeName.style.top = 12 + "px";
-    nodeName.style.maxWidth = nodeTotalWidth - (nodeTotalWidth < 250 ? 50 : 140) + "px";
+    nodeName.style.maxWidth = nodeNameArea - 20  + "px";
     nodeInner.appendChild(nodeName);
 
-    if(nodeName.clientHeight > 40){
+    if(nodeName.clientHeight > 35){
         nodeName.style.fontSize = 16 + "px";
-        nodeName.style.top = (nodeName.clientHeight > 30 ? 3 : 12) + "px";
+        nodeName.style.lineHeight = 21 + "px";
     }
+
+    var nameTop = nodeName.clientHeight > 35 ? 2 : 10;
+    var nameLeft = (nodeNameArea - nodeName.clientWidth) / 2;
+    var nameWidth = nodeName.clientWidth;
+    var nameHeight = nodeName.clientHeight;
+
+    nodeName.style.top = nameTop + "px";
+    nodeName.style.left = nameLeft + "px";
+
+    var nodeNameBackground = document.createElement("div");
+    nodeNameBackground.classList += "timeline-node-name-background";
+    nodeNameBackground.style.backgroundColor = GetContrastingColor(event.color) + "CC";
+
+    if(nodeName.clientHeight < 35){
+        nameTop += 10;
+        nameLeft -= 10;
+        nameWidth += 30;
+        nameHeight -= 6;
+    }
+    else{
+        nameTop += 10;
+        nameHeight -= 12;
+    }
+
+    nodeNameBackground.style.top = nameTop + "px";
+    nodeNameBackground.style.left = nameLeft + "px";
+    nodeNameBackground.style.width = nameWidth + "px";
+    nodeNameBackground.style.height = nameHeight + "px";
+
+    nodeInner.removeChild(nodeName);
+    nodeInner.appendChild(nodeNameBackground);
+    nodeInner.appendChild(nodeName);
 }
 
 function addContainerHeader(){
