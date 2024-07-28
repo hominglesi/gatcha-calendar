@@ -1,4 +1,47 @@
-var eventData = JSON.parse(`
+var eventTemplates = JSON.parse(`
+{
+    "templates": [
+        {   "template": "spiralAbyss", "name": "Spiral Abyss", "game": "genshin", 
+            "category": "abyss", "image": "spiral-abyss", "color": "#2F2B60"    
+        },
+        {   "template": "imaginariumTheather", "name": "Imaginarium Theather", "game": "genshin",
+            "category": "theather", "image": "imaginarium-theather", "color": "#1E2973" 
+        },
+        {   "template": "memoryOfChaos", "name": "Memory of Chaos", "game": "starrail",
+            "category": "moc", "image": "memory-chaos", "color": "#221F39"
+        },
+        {   "template": "apocalypticShadow", "name": "Apocalyptic Shadow", "game": "starrail",
+            "category": "apocalyptic", "image": "apocalyptic-shadow", "color": "#2C2A61"
+        },
+        {   "template": "pureFiction", "name": "Pure Fiction", "game": "starrail",
+            "category": "pf", "image": "pure-fiction", "color": "#122747"
+        },
+        {   "template": "towerOfAdversity", "name": "Tower of Adversity", "game": "wuwa",
+            "category": "tower", "image": "adversity-tower", "color": "#223958"
+        }
+    ]
+}`);
+
+function processEventData(eventData){
+    for (let i = 0; i < eventData.events.length; i++) {
+        var event = eventData.events[i];
+
+        for (let j = 0; j < eventTemplates.templates.length; j++) {
+            var template = eventTemplates.templates[j];
+            
+            if(event.template == template.template){
+                Object.keys(template).forEach(key => {
+                    if(event[key] == undefined)
+                        event[key] = template[key];
+                })
+            }
+        }
+    }
+
+    return eventData;
+};
+
+var eventData = processEventData(JSON.parse(`
 {
     "events": [
         {
@@ -66,26 +109,11 @@ var eventData = JSON.parse(`
             "category": "character2", "startTime": "2024-07-17T03:00:00Z", "endTime": "2024-08-06T16:59:59Z",
             "link": "https://www.hoyolab.com/article/31070419"
         },
-        {   
-            "name": "Spiral Abyss", "game": "genshin", "image": "spiral-abyss", "color": "#2F2B60",
-            "category": "abyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" 
-        },
-        {   
-            "name": "Spiral Abyss", "game": "genshin", "image": "spiral-abyss", "color": "#2F2B60",
-            "category": "abyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z"
-        },
-        {   
-            "name": "Spiral Abyss", "game": "genshin", "image": "spiral-abyss", "color": "#2F2B60",
-            "category": "abyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z"
-        },
-        {   
-            "name": "Imaginarium Theather", "game": "genshin", "image": "imaginarium-theather", "color": "#1E2973",
-            "category": "theather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z"
-        },
-        {   
-            "name": "Imaginarium Theather", "game": "genshin", "image": "imaginarium-theather", "color": "#1E2973",
-            "category": "theather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z"
-        },
+        {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
+        {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
+        {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
         {
             "name": "Heartfelt Doodlings", "game": "genshin", "image": "heartfelt-doodlings", "color": "#076288",
             "category": "web", "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T15:59:59Z",
@@ -161,30 +189,13 @@ var eventData = JSON.parse(`
             "category": "character2", "startTime": "2024-07-10T11:00:00Z", "endTime": "2024-07-30T13:59:59Z",
             "link": "https://www.hoyolab.com/article/30816396"
         },
-        {
-            "name": "Memory of Chaos", "game": "starrail", "image": "memory-chaos", "color": "#221F39",
-            "category": "apocalyptic", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z"
-        },
-        {
-            "name": "Memory of Chaos", "game": "starrail", "image": "memory-chaos", "color": "#221F39",
-            "category": "moc", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z"
-        },
-        {
-            "name": "Memory of Chaos", "game": "starrail", "image": "memory-chaos", "color": "#221F39",
-            "category": "moc", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-09-02T02:59:59Z"
-        },
-        {
-            "name": "Apocalyptic Shadow", "game": "starrail", "image": "apocalyptic-shadow", "color": "#2C2A61",
-            "category": "apocalyptic", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z"
-        },
-        {
-            "name": "Pure Fiction", "game": "starrail", "image": "pure-fiction", "color": "#122747",
-            "category": "pf", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z"
-        },
-        {
-            "name": "Pure Fiction", "game": "starrail", "image": "pure-fiction", "color": "#122747",
-            "category": "pf", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z"
-        },
+        {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
+            "category": "apocalyptic" },
+        {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
+        {   "template": "memoryOfChaos", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
+        {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
+        {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {
             "name": "Smoking Cool — The Universe! Pew! Pew! Grand Challenge!", "game": "starrail", "image": "pew-pew-challenge", "color": "#340704",
             "category": "web", "startTime": "2024-05-31T04:00:00Z", "endTime": "2024-06-07T03:59:59Z",
@@ -259,26 +270,11 @@ var eventData = JSON.parse(`
             "category": "character", "startTime": "2024-07-22T09:00:00Z", "endTime": "2024-08-14T10:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1065"
         },
-        {
-            "name": "Tower of Adversity", "game": "wuwa", "image": "adversity-tower", "color": "#223958",
-            "category": "tower", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-06-10T02:59:59Z"
-        },
-        {
-            "name": "Tower of Adversity", "game": "wuwa", "image": "adversity-tower", "color": "#223958",
-            "category": "tower", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T02:59:59Z"
-        },
-        {
-            "name": "Tower of Adversity", "game": "wuwa", "image": "adversity-tower", "color": "#223958",
-            "category": "tower", "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T02:59:59Z"
-        },
-        {
-            "name": "Tower of Adversity", "game": "wuwa", "image": "adversity-tower", "color": "#223958",
-            "category": "tower", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-07-22T02:59:59Z"
-        },
-        {
-            "name": "Tower of Adversity", "game": "wuwa", "image": "adversity-tower", "color": "#223958",
-            "category": "tower", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-08-05T02:59:59Z"
-        },
+        {   "template": "towerOfAdversity", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-06-10T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
@@ -289,7 +285,7 @@ var eventData = JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1025"
         }
     ]
-}`);
+}`));
 
 var dateData = JSON.parse(`
 {

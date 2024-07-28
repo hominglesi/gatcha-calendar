@@ -127,7 +127,7 @@ function GetContrastingColor(hex){
         hsl.luminance = Math.max(0, hsl.luminance -= 0.1);
     }
     else{
-        hsl.luminance = Math.min(1, hsl.luminance += 0.07);
+        hsl.luminance = Math.min(1, hsl.luminance += 0.1);
     }
 
     color = GetColorFromHSL(hsl);
