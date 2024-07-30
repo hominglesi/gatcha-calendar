@@ -135,6 +135,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/30065149"
         },
         {
+            "name": "Saga of Primaveral Blade", "game": "starrail", "image": "primaveral-blade", "color": "#7EADC2",
+            "category": "event", "startTime": "2024-07-31T03:00:00Z", "endTime": "2024-09-09T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/31603306"
+        },
+        {
             "name": "The Legend of Galactic Baseballer", "game": "starrail", "image": "galactic-baseballer", "color": "#060434",
             "category": "event2", "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-17T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29125952"
@@ -188,6 +193,16 @@ var eventData = processEventData(JSON.parse(`
             "name": "Thorns of Scented Crown", "game": "starrail", "image": "argenti-banner", "color": "#C7AA9E",
             "category": "character2", "startTime": "2024-07-10T11:00:00Z", "endTime": "2024-07-30T13:59:59Z",
             "link": "https://www.hoyolab.com/article/30816396"
+        },
+        {
+            "name": "Earth Hurled, Ether Curled", "game": "starrail", "image": "yunli-banner", "color": "#246176",
+            "category": "character", "startTime": "2024-07-31T03:00:00Z", "endTime": "2024-08-21T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/31605001"
+        },
+        {
+            "name": "Bloom in Gloom", "game": "starrail", "image": "huohuo-banner", "color": "#1D2E48",
+            "category": "character2", "startTime": "2024-07-31T03:00:00Z", "endTime": "2024-08-21T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/31605001"
         },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
