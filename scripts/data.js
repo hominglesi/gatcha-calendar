@@ -109,6 +109,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-07-17T03:00:00Z", "endTime": "2024-08-06T16:59:59Z",
             "link": "https://www.hoyolab.com/article/31070419"
         },
+        {
+            "name": "Ambrosial Essence", "game": "genshin", "image": "emilie-banner", "color": "#19493E",
+            "category": "character", "startTime": "2024-08-06T17:00:00Z", "endTime": "2024-08-27T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/31676908"
+        },
+        {
+            "name": "Discerner of Enigmas", "game": "genshin", "image": "yelan-banner", "color": "#313771",
+            "category": "character2", "startTime": "2024-08-06T17:00:00Z", "endTime": "2024-08-27T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/31676908"
+        },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
@@ -123,6 +133,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Fragrant Fantasy", "game": "genshin", "image": "fragrant-fantasy", "color": "#6AA2BB",
             "category": "web", "startTime": "2024-07-08T16:00:00Z", "endTime": "2024-07-15T15:59:59Z",
             "link": "https://www.hoyolab.com/article/30815333"
+        },
+        {
+            "name": "An Introduction to Perfumery", "game": "genshin", "image": "introduction-perfumery", "color": "#8EA831",
+            "category": "web", "startTime": "2024-08-01T04:00:00Z", "endTime": "2024-08-07T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/31671442"
         },
         {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "image": "dreamjoy-memoir", "color": "#302F32",
