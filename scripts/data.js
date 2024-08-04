@@ -80,6 +80,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31507365"
         },
         {
+            "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
+            "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/31777295"
+        },
+        {
             "name": "Illuminating Lightning", "game": "genshin", "image": "clorinde-banner", "color": "#46388D",
             "category": "character", "startTime": "2024-06-05T03:00:00Z", "endTime": "2024-06-25T16:59:59Z",
             "link": "https://www.hoyolab.com/article/29435758"
