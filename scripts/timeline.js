@@ -9,7 +9,7 @@ const dateWidth = 35;
 const scrollSpeed = 80;
 const genshinCategoryOrder = ["event", "event2", "event3", "character", "character2", "abyss", "theather", "web"];
 const starrailCategoryOrder = ["event", "event2", "event3", "character", "character2", "moc", "apocalyptic", "pf", "web"];
-const wuwaCategoryOrder = ["event", "event2", "event3", "event4", "character", "character2", "tower", "illusiverealm"];
+const wuwaCategoryOrder = ["event", "event2", "event3", "event4", "event5", "character", "character2", "tower", "illusiverealm"];
 
 timelineContainer.addEventListener("wheel", function (e) {
     if (e.deltaY < 0) timelineContainer.scrollLeft += scrollSpeed;

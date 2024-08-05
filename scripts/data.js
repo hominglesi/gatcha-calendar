@@ -286,6 +286,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1055"
         },
         {
+            "name": "Chord Cleansing", "game": "wuwa", "image": "chord-clensing", "color": "#05161E",
+            "category": "event5", "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1099"
+        },
+        {
             "name": "Prevail the Lasting Night", "game": "wuwa", "image": "jiyan-banner", "color": "#69A5B4",
             "category": "character", "startTime": "2024-05-23T01:00:00Z", "endTime": "2024-06-13T08:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/846"
