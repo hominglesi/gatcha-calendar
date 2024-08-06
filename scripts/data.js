@@ -175,6 +175,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/30587758"
         },
         {
+            "name": "Operation Memoria Snapshot", "game": "starrail", "image": "operation-memoria", "color": "#475A7E",
+            "category": "event2", "startTime": "2024-08-07T11:00:00Z", "endTime": "2024-08-19T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/31850204"
+        },
+        {
             "name": "Garden of Plenty", "game": "starrail", "image": "garden-plenty", "color": "#383A4B",
             "category": "event3", "startTime": "2024-06-07T03:00:00Z", "endTime": "2024-06-14T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29574847"
