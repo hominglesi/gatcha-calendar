@@ -80,6 +80,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31507365"
         },
         {
+            "name": "Energy Amplifier: Lemma", "game": "genshin", "image": "energy-amplifier", "color": "#198CA3",
+            "category": "event2", "startTime": "2024-08-12T09:00:00Z", "endTime": "2024-08-26T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/31982879"
+        },
+        {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
             "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31777295"
