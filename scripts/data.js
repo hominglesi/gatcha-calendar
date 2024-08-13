@@ -325,6 +325,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
