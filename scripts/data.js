@@ -18,6 +18,10 @@ var eventTemplates = JSON.parse(`
         },
         {   "template": "towerOfAdversity", "name": "Tower of Adversity", "game": "wuwa",
             "category": "tower", "image": "adversity-tower", "color": "#223958"
+        },
+        {
+            "template": "planarFissure", "name": "Planar Fissure", "game": "starrail", 
+            "image": "planar-fissure", "color": "#151B4D"
         }
     ]
 }`);
@@ -170,8 +174,8 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/29125952"
         },
         {
-            "name": "Planar Fissure", "game": "starrail", "image": "planar-fissure", "color": "#151B4D",
-            "category": "event2", "startTime": "2024-06-28T03:00:00Z", "endTime": "2024-07-05T02:59:59Z",
+            "template": "planarFissure", "category": "event2",
+            "startTime": "2024-06-28T03:00:00Z", "endTime": "2024-07-05T02:59:59Z",
             "link": "https://www.hoyolab.com/article/30340877"
         },
         {
@@ -193,6 +197,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Realm of the Strange", "game": "starrail", "image": "realm-strange", "color": "#131D4C",
             "category": "event3", "startTime": "2024-07-19T03:00:00Z", "endTime": "2024-07-26T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31184271"
+        },
+        {
+            "template": "planarFissure", "category": "event3",
+            "startTime": "2024-08-14T03:00:00Z", "endTime": "2024-08-21T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/32068176"
         },
         {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
