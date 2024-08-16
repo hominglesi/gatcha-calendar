@@ -3,6 +3,8 @@ var sidebar = document.getElementsByClassName("sidebar")[0];
 var burgerIcon = document.getElementsByClassName("burger-icon")[0];
 var contentContainer = document.getElementsByClassName("content-container")[0];
 
+window.setInterval(() => currentTime = new Date(), 1000);
+
 burgerIcon.addEventListener("click", e =>
 {
     if(sidebar.style.display == "none"){
@@ -55,23 +57,58 @@ function getGameName(game){
     return "Invalid Game";
 }
 
-function getTimeRemainingText(event){
-    var endDate = new Date(event.endTime);
+function getTimeRemainingText(endDate){
     var timeRemaining = endDate - currentTime;
     
-    var dayDifference = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-    if(dayDifference >= 2) return dayDifference + " days remaining";
+    var daysRemaining = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    if(daysRemaining >= 2) return daysRemaining + " days remaining";
 
-    var hourDifference = Math.floor(timeRemaining / (1000 * 60 * 60));
-    if(hourDifference >= 2) return hourDifference + " hours remaining";
+    var hoursRemaining = Math.floor(timeRemaining / (1000 * 60 * 60));
+    if(hoursRemaining >= 2) return hoursRemaining + " hours remaining";
 
-    var minuteDifference = Math.floor(timeRemaining / (1000 * 60));
-    if(minuteDifference >= 2) return minuteDifference + " minutes remaining";
+    var minutesRemaining = Math.floor(timeRemaining / (1000 * 60));
+    if(minutesRemaining >= 2) return minutesRemaining + " minutes remaining";
 
-    var secondDifference = Math.floor(timeRemaining / 1000);
-    if(secondDifference >= 1) return secondDifference + " seconds remaining";
+    var secondsRemaining = Math.floor(timeRemaining / 1000);
+    if(secondsRemaining >= 1) return secondsRemaining + " seconds remaining";
 
     return "Event ended";
+}
+
+function getLongTimeRemainingText(endDate){
+    var timeRemaining = endDate - currentTime;
+
+    var daysRemaining = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    timeRemaining -= daysRemaining * 1000 * 60 * 60 * 24;
+
+    var hoursRemaining = Math.floor(timeRemaining / (1000 * 60 * 60));
+    timeRemaining -= hoursRemaining * 1000 * 60 * 60;
+
+    var minutesRemaining = Math.floor(timeRemaining / (1000 * 60));
+    timeRemaining -= minutesRemaining * 1000 * 60;
+
+    var secondsRemaining = Math.floor(timeRemaining / 1000);
+
+    if(daysRemaining > 0) {
+        var dayString = daysRemaining == 1 ? "day" : "days";
+        var hourString = hoursRemaining == 1 ? "hour" : "hours";
+        return `${daysRemaining}  ${dayString} ${hoursRemaining} ${hourString}`;
+    }
+
+    if(hoursRemaining > 0) {
+        var hourString = hoursRemaining == 1 ? "hour" : "hours";
+        var minuteString = minutesRemaining == 1 ? "minute" : "minutes";
+        return `${hoursRemaining}  ${hourString} ${minutesRemaining} ${minuteString}`;
+    }
+    
+    if(minutesRemaining > 0){
+        var minuteString = minutesRemaining == 1 ? "minute" : "minutes";
+        var secondsString = secondsRemaining == 1 ? "second" : "seconds";
+        return `${minutesRemaining}  ${minuteString} ${secondsRemaining} ${secondsString}`;
+    }
+
+    var secondsString = secondsRemaining == 1 ? "second" : "seconds";
+    return `${secondsRemaining} ${secondsString}`;
 }
 
 function getDaysBetween(date1, date2){

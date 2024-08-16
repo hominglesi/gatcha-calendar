@@ -33,11 +33,27 @@ function createEventCard(event){
     topPart.appendChild(gameName);
 
     var timeRemaining = document.createElement("h3");
-    timeRemaining.innerText = getTimeRemainingText(event);
+    timeRemaining.setAttribute("data-endtime", event.endTime);
+    showShortTimeRemaining(timeRemaining);
     bottomPart.appendChild(timeRemaining);
+    bottomPart.addEventListener("mouseenter", (e) => showFullTimeRemaining(e.target.firstChild));
+    bottomPart.addEventListener("mouseleave", (e) => showShortTimeRemaining(e.target.firstChild));
+    
 
     eventCard.appendChild(topPart);
     eventCard.appendChild(bottomPart)
 
     return eventCard;
+}
+
+function showFullTimeRemaining(card){
+    console.log(card.dataset.endtime);
+    
+    var endDate = new Date(card.dataset.endtime);
+    card.innerText = getLongTimeRemainingText(endDate);
+}
+
+function showShortTimeRemaining(card){
+    var endDate = new Date(card.dataset.endtime);
+    card.innerText = getTimeRemainingText(endDate);
 }

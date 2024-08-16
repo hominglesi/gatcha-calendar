@@ -276,6 +276,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/923"
         },
         {
+            "name": "By Moon's Grace", "game": "wuwa", "image": "moons-grace", "color": "#A97E57",
+            "category": "event", "startTime": "2024-08-15T06:00:00Z", "endTime": "2024-09-28T15:00:00Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/923"
+        },
+        {
             "name": "Alloy Smelt", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
             "category": "event2", "startTime": "2024-06-06T09:00:00Z", "endTime": "2024-06-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/836"
@@ -329,12 +334,18 @@ var eventData = processEventData(JSON.parse(`
             "category": "character", "startTime": "2024-07-22T09:00:00Z", "endTime": "2024-08-14T10:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1065"
         },
+        {
+            "name": "Chromatic Prose", "game": "wuwa", "image": "zhezhi-banner", "color": "#87B3B4",
+            "category": "character", "startTime": "2024-08-15T06:00:00Z", "endTime": "2024-09-07T08:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1170"
+        },
         {   "template": "towerOfAdversity", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-06-10T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
