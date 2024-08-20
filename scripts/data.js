@@ -189,6 +189,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31850204"
         },
         {
+            "name": "Trailblaze: Friendship Is Magic!", "game": "starrail", "image": "trailblaze-friendship", "color": "#6E6864",
+            "category": "event2", "startTime": "2024-08-21T11:00:00Z", "endTime": "2024-09-09T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/32273784"
+        },
+        {
             "name": "Garden of Plenty", "game": "starrail", "image": "garden-plenty", "color": "#383A4B",
             "category": "event3", "startTime": "2024-06-07T03:00:00Z", "endTime": "2024-06-14T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29574847"
