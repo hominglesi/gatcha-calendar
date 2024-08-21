@@ -248,6 +248,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-07-31T03:00:00Z", "endTime": "2024-08-21T10:59:59Z",
             "link": "https://www.hoyolab.com/article/31605001"
         },
+        {
+            "name": "Cauldron Contrivance", "game": "starrail", "image": "jiaoqiu-banner", "color": "#B47755",
+            "category": "character", "startTime": "2024-08-21T11:00:00Z", "endTime": "2024-09-09T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/32306326"
+        },
+        {
+            "name": "Sparkling Splendor", "game": "starrail", "image": "sparkle-banner", "color": "#0D2683",
+            "category": "character2", "startTime": "2024-08-21T11:00:00Z", "endTime": "2024-09-09T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/32306326"
+        },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
