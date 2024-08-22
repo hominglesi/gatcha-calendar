@@ -154,6 +154,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31671442"
         },
         {
+            "name": "Off We Go to the Nation of Pyro!", "game": "genshin", "image": "nation-pyro", "color": "#A84F1F",
+            "category": "web", "startTime": "2024-08-21T16:00:00Z", "endTime": "2024-09-24T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/32370310"
+        },
+        {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "image": "dreamjoy-memoir", "color": "#302F32",
             "category": "event", "startTime": "2024-05-08T03:00:00Z", "endTime": "2024-06-17T02:59:59Z",
             "link": "https://www.hoyolab.com/article/28249917"
@@ -369,6 +374,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Dreams Ablaze in Darkness", "game": "wuwa", "image": "dreams-ablaze", "color": "#644C58",
             "category": "illusiverealm", "startTime": "2024-07-04T09:00:00Z", "endTime": "2024-08-05T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1025"
+        },
+        {
+            "name": "Carnival in Slumberland", "game": "wuwa", "image": "carnival-slumberland", "color": "#4E4659",
+            "category": "illusiverealm", "startTime": "2024-08-22T09:00:00Z", "endTime": "2024-09-23T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1218"
         }
     ]
 }`));
