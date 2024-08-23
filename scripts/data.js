@@ -159,6 +159,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/32370310"
         },
         {
+            "name": "Guide to Wondrous Sights", "game": "genshin", "image": "wondrous-sights", "color": "#3C7AD5",
+            "category": "web2", "startTime": "2024-08-23T04:00:00Z", "endTime": "2024-08-30T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/32404017"
+        },
+        {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "image": "dreamjoy-memoir", "color": "#302F32",
             "category": "event", "startTime": "2024-05-08T03:00:00Z", "endTime": "2024-06-17T02:59:59Z",
             "link": "https://www.hoyolab.com/article/28249917"
@@ -268,8 +273,10 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-05T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
+        {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
         {
             "name": "Smoking Cool — The Universe! Pew! Pew! Grand Challenge!", "game": "starrail", "image": "pew-pew-challenge", "color": "#340704",
             "category": "web", "startTime": "2024-05-31T04:00:00Z", "endTime": "2024-06-07T03:59:59Z",
