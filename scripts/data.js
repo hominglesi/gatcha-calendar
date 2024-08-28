@@ -79,6 +79,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31070415"
         },
         {
+            "name": "Traces of Artistry", "game": "genshin", "image": "traces-artistry", "color": "#D17A43",
+            "category": "event", "startTime": "2024-08-28T03:59:59Z", "endTime": "2024-09-16T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/32490642"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
@@ -133,11 +138,22 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-08-06T17:00:00Z", "endTime": "2024-08-27T13:59:59Z",
             "link": "https://www.hoyolab.com/article/31676908"
         },
+        {
+            "name": "Sharktacular Surfari", "game": "genshin", "image": "mualani-banner", "color": "#91B5BD",
+            "category": "character", "startTime": "2024-08-28T03:59:59Z", "endTime": "2024-09-17T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/32490651"
+        },
+        {
+            "name": "Leaves in the Wind", "game": "genshin", "image": "kazuha-banner", "color": "#568E81",
+            "category": "character2", "startTime": "2024-08-28T03:59:59Z", "endTime": "2024-09-17T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/32490651"
+        },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
         {
             "name": "Heartfelt Doodlings", "game": "genshin", "image": "heartfelt-doodlings", "color": "#076288",
             "category": "web", "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T15:59:59Z",
@@ -318,6 +334,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/923"
         },
         {
+            "name": "Bountiful Crescendo", "game": "wuwa", "image": "bountiful-crescendo", "color": "#101115",
+            "category": "event2", "startTime": "2024-08-29T03:00:00Z", "endTime": "2024-09-05T03:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1233"
+        },
+        {
             "name": "Second Coming of Solaris", "game": "wuwa", "image": "second-coming", "color": "#3E5584",
             "category": "event3", "startTime": "2024-06-13T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
         },
@@ -373,6 +394,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
