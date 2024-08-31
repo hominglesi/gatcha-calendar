@@ -22,6 +22,10 @@ var eventTemplates = JSON.parse(`
         {
             "template": "planarFissure", "name": "Planar Fissure", "game": "starrail", 
             "image": "planar-fissure", "color": "#151B4D"
+        },
+        {
+            "template": "gardenOfPlenty", "name": "Garden of Plenty", "game": "starrail", 
+            "image": "garden-plenty", "color": "#383A4B"
         }
     ]
 }`);
@@ -233,6 +237,11 @@ var eventData = processEventData(JSON.parse(`
             "template": "planarFissure", "category": "event3",
             "startTime": "2024-08-14T03:00:00Z", "endTime": "2024-08-21T02:59:59Z",
             "link": "https://www.hoyolab.com/article/32068176"
+        },
+        {
+            "template": "gardenOfPlenty", "category": "event3",
+            "startTime": "2024-08-30T03:00:00Z", "endTime": "2024-09-06T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/32603828"
         },
         {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
