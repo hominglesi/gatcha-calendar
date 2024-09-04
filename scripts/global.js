@@ -61,13 +61,13 @@ function getTimeRemainingText(endDate){
     var timeRemaining = endDate - currentTime;
     
     var daysRemaining = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-    if(daysRemaining >= 2) return daysRemaining + " days remaining";
+    if(daysRemaining >= 1) return daysRemaining + " days remaining";
 
     var hoursRemaining = Math.floor(timeRemaining / (1000 * 60 * 60));
-    if(hoursRemaining >= 2) return hoursRemaining + " hours remaining";
+    if(hoursRemaining >= 1) return hoursRemaining + " hours remaining";
 
     var minutesRemaining = Math.floor(timeRemaining / (1000 * 60));
-    if(minutesRemaining >= 2) return minutesRemaining + " minutes remaining";
+    if(minutesRemaining >= 1) return minutesRemaining + " minutes remaining";
 
     var secondsRemaining = Math.floor(timeRemaining / 1000);
     if(secondsRemaining >= 1) return secondsRemaining + " seconds remaining";

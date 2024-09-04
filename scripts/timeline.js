@@ -1,5 +1,5 @@
 var containerStartDate = new Date("2024-05-27T22:00:00Z");
-var containerEndDate = new Date("2024-10-10T22:00:00Z");
+var containerEndDate = new Date("2024-10-16T22:00:00Z");
 var timelineContainer = document.getElementsByClassName("timeline-container")[0];
 var timelineContainerInner = document.getElementsByClassName("timeline-container-inner")[0];
 const headerHeight = 70;

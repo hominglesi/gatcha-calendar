@@ -297,8 +297,9 @@ var eventData = processEventData(JSON.parse(`
             "category": "apocalyptic" },
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
+        {   "template": "memoryOfChaos", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
-        {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-05T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
@@ -346,6 +347,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Bountiful Crescendo", "game": "wuwa", "image": "bountiful-crescendo", "color": "#101115",
             "category": "event2", "startTime": "2024-08-29T03:00:00Z", "endTime": "2024-09-05T03:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1233"
+        },
+        {
+            "name": "Do Echoids Dream of Electric Sheeps", "game": "wuwa", "image": "echoids-dream", "color": "#999C9B",
+            "category": "event2", "startTime": "2024-09-05T09:00:00Z", "endTime": "2024-09-26T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1268"
         },
         {
             "name": "Second Coming of Solaris", "game": "wuwa", "image": "second-coming", "color": "#3E5584",
