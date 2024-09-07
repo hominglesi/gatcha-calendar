@@ -98,6 +98,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31982879"
         },
         {
+            "name": "Dodoco's Boom-Bastic Escapades", "game": "genshin", "image": "dodocos-escapades", "color": "#93CABD",
+            "category": "event2", "startTime": "2024-09-09T09:00:00Z", "endTime": "2024-09-23T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/33001020"
+        },
+        {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
             "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31777295"
@@ -400,6 +405,11 @@ var eventData = processEventData(JSON.parse(`
         {
             "name": "Chromatic Prose", "game": "wuwa", "image": "zhezhi-banner", "color": "#87B3B4",
             "category": "character", "startTime": "2024-08-15T06:00:00Z", "endTime": "2024-09-07T08:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1170"
+        },
+        {
+            "name": "Celestial Revelation", "game": "wuwa", "image": "xiangliyao-banner", "color": "#8EB4C9",
+            "category": "character", "startTime": "2024-09-07T09:00:00Z", "endTime": "2024-09-28T10:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1170"
         },
         {   "template": "towerOfAdversity", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-06-10T02:59:59Z" },
