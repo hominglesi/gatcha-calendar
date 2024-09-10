@@ -204,6 +204,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31603306"
         },
         {
+            "name": "Luminary Wardance Ceremony", "game": "starrail", "image": "luminary-wardance", "color": "#315286",
+            "category": "event", "startTime": "2024-09-10T03:00:00Z", "endTime": "2024-10-21T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/33078161"
+        },
+        {
             "name": "The Legend of Galactic Baseballer", "game": "starrail", "image": "galactic-baseballer", "color": "#060434",
             "category": "event2", "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-17T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29125952"
@@ -298,6 +303,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-08-21T11:00:00Z", "endTime": "2024-09-09T13:59:59Z",
             "link": "https://www.hoyolab.com/article/32306326"
         },
+        {
+            "name": "Stormrider's Bolt", "game": "starrail", "image": "feixiao-banner", "color": "#6CB9BD",
+            "category": "character", "startTime": "2024-09-10T03:00:00Z", "endTime": "2024-10-02T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/32306326"
+        },
+        {
+            "name": "Indelible Coterie", "game": "starrail", "image": "indelible-coterie", "color": "#747FBD",
+            "category": "character2", "startTime": "2024-09-10T03:00:00Z", "endTime": "2024-10-02T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/32306326"
+        },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
@@ -305,6 +320,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "memoryOfChaos", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
