@@ -384,6 +384,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1080"
         },
         {
+            "name": "Wuthering Exploration", "game": "wuwa", "image": "wuthering-exploration2", "color": "#1D1C24",
+            "category": "event3", "startTime": "2024-09-12T09:00:00Z", "endTime": "2024-09-26T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1296"
+        },
+        {
             "name": "Wuthering Exploration", "game": "wuwa", "image": "wuthering-exploration", "color": "#3F4764",
             "category": "event4", "startTime": "2024-06-13T09:00:00Z", "endTime": "2024-06-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/874"
