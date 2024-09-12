@@ -149,13 +149,23 @@ var eventData = processEventData(JSON.parse(`
         },
         {
             "name": "Sharktacular Surfari", "game": "genshin", "image": "mualani-banner", "color": "#91B5BD",
-            "category": "character", "startTime": "2024-08-28T03:59:59Z", "endTime": "2024-09-17T16:59:59Z",
+            "category": "character", "startTime": "2024-08-28T03:00:00Z", "endTime": "2024-09-17T16:59:59Z",
             "link": "https://www.hoyolab.com/article/32490651"
         },
         {
             "name": "Leaves in the Wind", "game": "genshin", "image": "kazuha-banner", "color": "#568E81",
-            "category": "character2", "startTime": "2024-08-28T03:59:59Z", "endTime": "2024-09-17T16:59:59Z",
+            "category": "character2", "startTime": "2024-08-28T03:00:00Z", "endTime": "2024-09-17T16:59:59Z",
             "link": "https://www.hoyolab.com/article/32490651"
+        },
+        {
+            "name": "Seeker of Flame-Wrought Secrets", "game": "genshin", "image": "kinich-banner", "color": "#BBDA9B",
+            "category": "character", "startTime": "2024-09-17T17:00:00Z", "endTime": "2024-10-08T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/33183044"
+        },
+        {
+            "name": "Reign of Serenity", "game": "genshin", "image": "raiden-banner", "color": "#563F8C",
+            "category": "character2", "startTime": "2024-09-17T17:00:00Z", "endTime": "2024-10-08T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/33183044"
         },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
@@ -187,6 +197,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Guide to Wondrous Sights", "game": "genshin", "image": "wondrous-sights", "color": "#3C7AD5",
             "category": "web2", "startTime": "2024-08-23T04:00:00Z", "endTime": "2024-08-30T15:59:59Z",
             "link": "https://www.hoyolab.com/article/32404017"
+        },
+        {
+            "name": "Saurian Egg Adventures", "game": "genshin", "image": "saurian-adventures", "color": "#39C7B4",
+            "category": "web2", "startTime": "2024-09-12T04:00:00Z", "endTime": "2024-09-19T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/33177470"
         },
         {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "image": "dreamjoy-memoir", "color": "#302F32",
