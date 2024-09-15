@@ -416,6 +416,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1055"
         },
         {
+            "name": "Alloy Smelt II", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
+            "category": "event4", "startTime": "2024-09-16T09:00:00Z", "endTime": "2024-09-28T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1306"
+        },
+        {
             "name": "Chord Cleansing", "game": "wuwa", "image": "chord-clensing", "color": "#05161E",
             "category": "event5", "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1099"
