@@ -171,6 +171,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-08-16T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
+        {   "template": "spiralAbyss", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-16T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
