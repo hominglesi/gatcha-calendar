@@ -88,6 +88,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/32490642"
         },
         {
+            "name": "Of Thorns and Crowns", "game": "genshin", "image": "thorns-crowns", "color": "#CC764B",
+            "category": "event", "startTime": "2024-09-20T09:00:00Z", "endTime": "2024-09-30T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/33358228"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
