@@ -26,6 +26,10 @@ var eventTemplates = JSON.parse(`
         {
             "template": "gardenOfPlenty", "name": "Garden of Plenty", "game": "starrail", 
             "image": "garden-plenty", "color": "#383A4B"
+        },
+        {
+            "template": "chordCleansing", "name": "Chord Cleansing", "game": "wuwa", 
+            "image": "chord-clensing", "color": "#05161E"
         }
     ]
 }`);
@@ -362,8 +366,8 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/813"
         },
         {
-            "name": "Chord Cleansing", "game": "wuwa", "image": "chord-clensing", "color": "#05161E",
-            "category": "event", "startTime": "2024-06-20T03:00:00Z", "endTime": "2024-06-27T02:59:59Z",
+            "template": "chordCleansing", "category": "event", 
+            "startTime": "2024-06-20T03:00:00Z", "endTime": "2024-06-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/900"
         },
         {
@@ -426,8 +430,8 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1306"
         },
         {
-            "name": "Chord Cleansing", "game": "wuwa", "image": "chord-clensing", "color": "#05161E",
-            "category": "event5", "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
+            "template": "chordCleansing", "category": "event5", 
+            "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1099"
         },
         {
@@ -459,6 +463,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Celestial Revelation", "game": "wuwa", "image": "xiangliyao-banner", "color": "#8EB4C9",
             "category": "character", "startTime": "2024-09-07T09:00:00Z", "endTime": "2024-09-28T10:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1170"
+        },
+        {
+            "template": "chordCleansing", "category": "event5", 
+            "startTime": "2024-09-20T03:00:00Z", "endTime": "2024-09-27T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1316"
         },
         {   "template": "towerOfAdversity", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-06-10T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T02:59:59Z" },
