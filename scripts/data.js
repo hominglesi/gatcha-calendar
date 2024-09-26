@@ -112,6 +112,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/33001020"
         },
         {
+            "name": "Mementos of Teyvat", "game": "genshin", "image": "mementos-teyvat", "color": "#18244E",
+            "category": "event2", "startTime": "2024-09-28T09:00:00Z", "endTime": "2024-10-08T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/33642499"
+        },
+        {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
             "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31777295"
