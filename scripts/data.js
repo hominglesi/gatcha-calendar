@@ -210,6 +210,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/32370310"
         },
         {
+            "name": "Starlight Reverie", "game": "genshin", "image": "starlight-reverie", "color": "#ACBAB4",
+            "category": "web", "startTime": "2024-09-28T16:00:00Z", "endTime": "2024-10-12T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/33700041"
+        },
+        {
             "name": "Guide to Wondrous Sights", "game": "genshin", "image": "wondrous-sights", "color": "#3C7AD5",
             "category": "web2", "startTime": "2024-08-23T04:00:00Z", "endTime": "2024-08-30T15:59:59Z",
             "link": "https://www.hoyolab.com/article/32404017"
@@ -218,6 +223,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Saurian Egg Adventures", "game": "genshin", "image": "saurian-adventures", "color": "#39C7B4",
             "category": "web2", "startTime": "2024-09-12T04:00:00Z", "endTime": "2024-09-19T15:59:59Z",
             "link": "https://www.hoyolab.com/article/33177470"
+        },
+        {
+            "name": "Teyvat's Special Delivery", "game": "genshin", "image": "teyvats-delivery", "color": "#87AFC9",
+            "category": "web2", "startTime": "2024-09-27T04:00:00Z", "endTime": "2024-10-07T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/33673565"
         },
         {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "image": "dreamjoy-memoir", "color": "#302F32",
