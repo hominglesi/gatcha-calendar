@@ -280,6 +280,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/32068176"
         },
         {
+            "name": "Festive Revelry", "game": "starrail", "image": "festive-revelry", "color": "#22283F",
+            "category": "event2", "startTime": "2024-09-30T11:00:00Z", "endTime": "2024-19-21T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/33739467"
+        },
+        {
             "name": "Garden of Plenty", "game": "starrail", "image": "garden-plenty", "color": "#383A4B",
             "category": "event3", "startTime": "2024-06-07T03:00:00Z", "endTime": "2024-06-14T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29574847"
@@ -370,6 +375,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
+        {   "template": "pureFiction", "startTime": "2024-09-30T03:00:00Z", "endTime": "2024-11-10T02:59:59Z" },
         {
             "name": "Smoking Cool — The Universe! Pew! Pew! Grand Challenge!", "game": "starrail", "image": "pew-pew-challenge", "color": "#340704",
             "category": "web", "startTime": "2024-05-31T04:00:00Z", "endTime": "2024-06-07T03:59:59Z",
@@ -401,6 +407,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/923"
         },
         {
+            "name": "Where Stars Slumber", "game": "wuwa", "image": "stars-slumber", "color": "#37678D",
+            "category": "event", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-11-13T14:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1408"
+        },
+        {
             "name": "Alloy Smelt", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
             "category": "event2", "startTime": "2024-06-06T09:00:00Z", "endTime": "2024-06-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/836"
@@ -421,6 +432,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1268"
         },
         {
+            "name": "Amidst The Stars", "game": "wuwa", "image": "amidst-stars", "color": "#5280AF",
+            "category": "event2", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-11-13T14:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1408"
+        },
+        {
             "name": "Second Coming of Solaris", "game": "wuwa", "image": "second-coming", "color": "#3E5584",
             "category": "event3", "startTime": "2024-06-13T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
         },
@@ -433,6 +449,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Wuthering Exploration", "game": "wuwa", "image": "wuthering-exploration2", "color": "#1D1C24",
             "category": "event3", "startTime": "2024-09-12T09:00:00Z", "endTime": "2024-09-26T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1296"
+        },
+        {
+            "name": "Parade of Stars", "game": "wuwa", "image": "parade-stars", "color": "#182845",
+            "category": "event3", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-11-13T14:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1386"
         },
         {
             "name": "Wuthering Exploration", "game": "wuwa", "image": "wuthering-exploration", "color": "#3F4764",
@@ -485,6 +506,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1170"
         },
         {
+            "name": "Till the Sea Turns Clear", "game": "wuwa", "image": "shorekeeper-banner", "color": "#18192B",
+            "category": "character", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-10-24T08:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1420"
+        },
+        {
             "template": "chordCleansing", "category": "event5", 
             "startTime": "2024-09-20T03:00:00Z", "endTime": "2024-09-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1316"
@@ -498,6 +524,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-09-30T03:00:00Z", "endTime": "2024-10-13T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
