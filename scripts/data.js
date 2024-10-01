@@ -364,6 +364,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-09-10T03:00:00Z", "endTime": "2024-10-02T10:59:59Z",
             "link": "https://www.hoyolab.com/article/32306326"
         },
+        {
+            "name": "Let Scent Sink In", "game": "starrail", "image": "lingsha-banner", "color": "#5D473F",
+            "category": "character", "startTime": "2024-10-02T11:00:00Z", "endTime": "2024-10-22T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/33777781"
+        },
+        {
+            "name": "Sunset Clause", "game": "starrail", "image": "topaz-banner", "color": "#A2B2D4",
+            "category": "character2", "startTime": "2024-10-02T11:00:00Z", "endTime": "2024-10-22T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/33777781"
+        },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
@@ -469,6 +479,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Alloy Smelt II", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
             "category": "event4", "startTime": "2024-09-16T09:00:00Z", "endTime": "2024-09-28T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1306"
+        },
+        {
+            "name": "Fairy Tale's Finale", "game": "wuwa", "image": "fairy-finale", "color": "#8D98AA",
+            "category": "event4", "startTime": "2024-10-01T09:00:00Z", "endTime": "2024-10-24T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1473"
         },
         {
             "template": "chordCleansing", "category": "event5", 
