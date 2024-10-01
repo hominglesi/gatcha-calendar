@@ -281,7 +281,7 @@ var eventData = processEventData(JSON.parse(`
         },
         {
             "name": "Festive Revelry", "game": "starrail", "image": "festive-revelry", "color": "#22283F",
-            "category": "event2", "startTime": "2024-09-30T11:00:00Z", "endTime": "2024-19-21T02:59:59Z",
+            "category": "event2", "startTime": "2024-09-30T11:00:00Z", "endTime": "2024-10-21T02:59:59Z",
             "link": "https://www.hoyolab.com/article/33739467"
         },
         {
