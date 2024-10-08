@@ -122,64 +122,74 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/31777295"
         },
         {
-            "name": "Illuminating Lightning", "game": "genshin", "image": "clorinde-banner", "color": "#46388D",
+            "name": "Illuminating Lightning", "game": "genshin", "image": "char/clorinde", "color": "#5243B1",
             "category": "character", "startTime": "2024-06-05T03:00:00Z", "endTime": "2024-06-25T16:59:59Z",
             "link": "https://www.hoyolab.com/article/29435758"
         },
         {
-            "name": "Caution in Confidence", "game": "genshin", "image": "alhaitham-banner", "color": "#1C3C3B",
+            "name": "Caution in Confidence", "game": "genshin", "image": "char/alhaitham", "color": "#2D736C",
             "category": "character2", "startTime": "2024-06-05T03:00:00Z", "endTime": "2024-06-25T16:59:59Z",
             "link": "https://www.hoyolab.com/article/29435758"
         },
         {
-            "name": "Romaritime Meluserenity", "game": "genshin", "image": "sigewinne-banner", "color": "#7F6073",
+            "name": "Romaritime Meluserenity", "game": "genshin", "image": "char/sigewinne", "color": "#3F8CC4",
             "category": "character", "startTime": "2024-06-25T17:00:00Z", "endTime": "2024-07-16T13:59:59Z",
             "link": "https://www.hoyolab.com/article/30071782"
         },
         {
-            "name": "Chanson of Many Waters", "game": "genshin", "image": "furina-banner", "color": "#072A5C",
+            "name": "Chanson of Many Waters", "game": "genshin", "image": "char/furina", "color": "#5375ED",
             "category": "character2", "startTime": "2024-06-25T17:00:00Z", "endTime": "2024-07-16T13:59:59Z",
             "link": "https://www.hoyolab.com/article/30071782"
         },
         {
-            "name": "In the Name of the Rosula", "game": "genshin", "image": "navia-banner", "color": "#E49C3A",
+            "name": "In the Name of the Rosula", "game": "genshin", "image": "char/navia", "color": "#DB985D",
             "category": "character", "startTime": "2024-07-17T03:00:00Z", "endTime": "2024-08-06T16:59:59Z",
             "link": "https://www.hoyolab.com/article/31070419"
         },
         {
-            "name": "Twirling Lotus", "game": "genshin", "image": "nilou-banner", "color": "#398FD9",
+            "name": "Twirling Lotus", "game": "genshin", "image": "char/nilou", "color": "#95BCD0",
             "category": "character2", "startTime": "2024-07-17T03:00:00Z", "endTime": "2024-08-06T16:59:59Z",
             "link": "https://www.hoyolab.com/article/31070419"
         },
         {
-            "name": "Ambrosial Essence", "game": "genshin", "image": "emilie-banner", "color": "#19493E",
+            "name": "Ambrosial Essence", "game": "genshin", "image": "char/emilie", "color": "#34795E",
             "category": "character", "startTime": "2024-08-06T17:00:00Z", "endTime": "2024-08-27T13:59:59Z",
             "link": "https://www.hoyolab.com/article/31676908"
         },
         {
-            "name": "Discerner of Enigmas", "game": "genshin", "image": "yelan-banner", "color": "#313771",
+            "name": "Discerner of Enigmas", "game": "genshin", "image": "char/yelan", "color": "#6471D1",
             "category": "character2", "startTime": "2024-08-06T17:00:00Z", "endTime": "2024-08-27T13:59:59Z",
             "link": "https://www.hoyolab.com/article/31676908"
         },
         {
-            "name": "Sharktacular Surfari", "game": "genshin", "image": "mualani-banner", "color": "#91B5BD",
+            "name": "Sharktacular Surfari", "game": "genshin", "image": "char/mualani", "color": "#6BACDD",
             "category": "character", "startTime": "2024-08-28T03:00:00Z", "endTime": "2024-09-17T16:59:59Z",
             "link": "https://www.hoyolab.com/article/32490651"
         },
         {
-            "name": "Leaves in the Wind", "game": "genshin", "image": "kazuha-banner", "color": "#568E81",
+            "name": "Leaves in the Wind", "game": "genshin", "image": "char/kazuha", "color": "#8CC8CB",
             "category": "character2", "startTime": "2024-08-28T03:00:00Z", "endTime": "2024-09-17T16:59:59Z",
             "link": "https://www.hoyolab.com/article/32490651"
         },
         {
-            "name": "Seeker of Flame-Wrought Secrets", "game": "genshin", "image": "kinich-banner", "color": "#BBDA9B",
+            "name": "Seeker of Flame-Wrought Secrets", "game": "genshin", "image": "char/kinich", "color": "#326E78",
             "category": "character", "startTime": "2024-09-17T17:00:00Z", "endTime": "2024-10-08T13:59:59Z",
             "link": "https://www.hoyolab.com/article/33183044"
         },
         {
-            "name": "Reign of Serenity", "game": "genshin", "image": "raiden-banner", "color": "#563F8C",
+            "name": "Reign of Serenity", "game": "genshin", "image": "char/raiden", "color": "#724EBC",
             "category": "character2", "startTime": "2024-09-17T17:00:00Z", "endTime": "2024-10-08T13:59:59Z",
             "link": "https://www.hoyolab.com/article/33183044"
+        },
+        {
+            "name": "Forgefire's Blessing", "game": "genshin", "image": "char/xilonen", "color": "#E5A344",
+            "category": "character", "startTime": "2024-10-09T03:00:00Z", "endTime": "2024-10-29T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/34010550"
+        },
+        {
+            "name": "Of Silken Clouds Woven", "game": "genshin", "image": "char/chiori", "color": "#C77C4A",
+            "category": "character2", "startTime": "2024-10-09T03:00:00Z", "endTime": "2024-10-29T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/34010550"
         },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
@@ -210,8 +220,13 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/32370310"
         },
         {
+            "name": "Teyvat's Special Delivery", "game": "genshin", "image": "teyvats-delivery", "color": "#87AFC9",
+            "category": "web", "startTime": "2024-09-27T04:00:00Z", "endTime": "2024-10-07T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/33673565"
+        },
+        {
             "name": "Starlight Reverie", "game": "genshin", "image": "starlight-reverie", "color": "#ACBAB4",
-            "category": "web", "startTime": "2024-09-28T16:00:00Z", "endTime": "2024-10-12T15:59:59Z",
+            "category": "event3", "startTime": "2024-09-28T16:00:00Z", "endTime": "2024-10-12T15:59:59Z",
             "link": "https://www.hoyolab.com/article/33700041"
         },
         {
@@ -225,9 +240,9 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/33177470"
         },
         {
-            "name": "Teyvat's Special Delivery", "game": "genshin", "image": "teyvats-delivery", "color": "#87AFC9",
-            "category": "web2", "startTime": "2024-09-27T04:00:00Z", "endTime": "2024-10-07T15:59:59Z",
-            "link": "https://www.hoyolab.com/article/33673565"
+            "name": "Urgent Orders", "game": "genshin", "image": "urgent-orders", "color": "#6C5C4D",
+            "category": "web2", "startTime": "2024-10-04T04:00:00Z", "endTime": "2024-10-11T15:59:59Z",
+            "link": "https://www.hoyolab.com/article/33914247"
         },
         {
             "name": "Clockie: Dreamjoy Memoir", "game": "starrail", "image": "dreamjoy-memoir", "color": "#302F32",
