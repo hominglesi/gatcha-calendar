@@ -97,6 +97,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/33358228"
         },
         {
+            "name": "Aphid Treasure Trace", "game": "genshin", "image": "aphid-treasure", "color": "#BD556D",
+            "category": "event", "startTime": "2024-10-08T09:00:00Z", "endTime": "2024-10-21T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34043094"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
