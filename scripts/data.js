@@ -28,6 +28,10 @@ var eventTemplates = JSON.parse(`
             "image": "garden-plenty", "color": "#383A4B"
         },
         {
+            "template": "realmOfTheStrange", "name": "Realm of the Strange", "game": "starrail", 
+            "image": "realm-strange", "color": "#131D4C"
+        },
+        {
             "template": "chordCleansing", "name": "Chord Cleansing", "game": "wuwa", 
             "image": "chord-clensing", "color": "#05161E"
         }
@@ -201,9 +205,11 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-08-16T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-16T02:59:59Z" },
+        {   "template": "spiralAbyss", "startTime": "2024-10-16T03:00:00Z", "endTime": "2024-11-16T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2024-10-01T03:00:00Z", "endTime": "2024-11-01T02:59:59Z" },
         {
             "name": "Heartfelt Doodlings", "game": "genshin", "image": "heartfelt-doodlings", "color": "#076288",
             "category": "web", "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T15:59:59Z",
@@ -310,8 +316,8 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/29574847"
         },
         {
-            "name": "Realm of the Strange", "game": "starrail", "image": "realm-strange", "color": "#131D4C",
-            "category": "event3", "startTime": "2024-07-19T03:00:00Z", "endTime": "2024-07-26T02:59:59Z",
+            "template": "realmOfTheStrange", "category": "event3",
+            "startTime": "2024-07-19T03:00:00Z", "endTime": "2024-07-26T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31184271"
         },
         {
@@ -323,6 +329,11 @@ var eventData = processEventData(JSON.parse(`
             "template": "gardenOfPlenty", "category": "event3",
             "startTime": "2024-08-30T03:00:00Z", "endTime": "2024-09-06T02:59:59Z",
             "link": "https://www.hoyolab.com/article/32603828"
+        },
+        {
+            "template": "realmOfTheStrange", "category": "event3",
+            "startTime": "2024-10-11T03:00:00Z", "endTime": "2024-10-18T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34134163"
         },
         {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
@@ -509,6 +520,11 @@ var eventData = processEventData(JSON.parse(`
             "template": "chordCleansing", "category": "event5", 
             "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1099"
+        },
+        {
+            "name": "Solaris Weather Forecast", "game": "wuwa", "image": "solaris-forecast", "color": "#0B1D29",
+            "category": "event5", "startTime": "2024-10-10T09:00:00Z", "endTime": "2024-10-31T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1491"
         },
         {
             "name": "Prevail the Lasting Night", "game": "wuwa", "image": "jiyan-banner", "color": "#69A5B4",
