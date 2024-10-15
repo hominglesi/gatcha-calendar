@@ -126,6 +126,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/33642499"
         },
         {
+            "name": "Reminiscent Regimen: Thrill", "game": "genshin", "image": "reminiscent-regimen", "color": "#B7C455",
+            "category": "event2", "startTime": "2024-10-17T09:00:00Z", "endTime": "2024-10-28T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34259331"
+        },
+        {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
             "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31777295"
@@ -410,6 +415,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
+        {   "template": "memoryOfChaos", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-11-25T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
@@ -575,7 +581,8 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
-        {   "template": "towerOfAdversity", "startTime": "2024-09-30T03:00:00Z", "endTime": "2024-10-13T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-09-30T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
