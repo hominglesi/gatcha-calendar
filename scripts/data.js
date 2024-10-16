@@ -34,7 +34,11 @@ var eventTemplates = JSON.parse(`
         {
             "template": "chordCleansing", "name": "Chord Cleansing", "game": "wuwa", 
             "image": "chord-clensing", "color": "#05161E"
-        }
+        },
+        {
+                "template": "bountifulCrescendo", "name": "Bountiful Crescendo", "game": "wuwa", 
+                "image": "bountiful-crescendo", "color": "#101115"
+            }
     ]
 }`);
 
@@ -469,9 +473,9 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/923"
         },
         {
-            "name": "Bountiful Crescendo", "game": "wuwa", "image": "bountiful-crescendo", "color": "#101115",
-            "category": "event2", "startTime": "2024-08-29T03:00:00Z", "endTime": "2024-09-05T03:59:59Z",
-            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1233"
+            "template": "bountifulCrescendo", "category": "event5", 
+            "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1099"
         },
         {
             "name": "Do Echoids Dream of Electric Sheeps", "game": "wuwa", "image": "echoids-dream", "color": "#999C9B",
@@ -533,6 +537,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1491"
         },
         {
+            "template": "bountifulCrescendo", "category": "character", 
+            "startTime": "2024-10-17T03:00:00Z", "endTime": "2024-10-24T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1502"
+        },
+        {
             "name": "Prevail the Lasting Night", "game": "wuwa", "image": "jiyan-banner", "color": "#69A5B4",
             "category": "character", "startTime": "2024-05-23T01:00:00Z", "endTime": "2024-06-13T08:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/846"
@@ -564,7 +573,7 @@ var eventData = processEventData(JSON.parse(`
         },
         {
             "name": "Till the Sea Turns Clear", "game": "wuwa", "image": "shorekeeper-banner", "color": "#18192B",
-            "category": "character", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-10-24T08:59:59Z",
+            "category": "character2", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-10-24T08:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1420"
         },
         {
