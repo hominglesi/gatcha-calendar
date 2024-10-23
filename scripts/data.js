@@ -110,6 +110,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/34043094"
         },
         {
+            "name": "Chromatic Ode of Candies and Roses", "game": "genshin", "image": "chromatic-ode", "color": "#B2D5B7",
+            "category": "event", "startTime": "2024-10-23T09:00:00Z", "endTime": "2024-11-07T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34402598"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
@@ -285,6 +290,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/33078161"
         },
         {
+            "name": "Sound Hunt Ninjutsu Inscription", "game": "starrail", "image": "sound-hunt", "color": "#2d3434",
+            "category": "event", "startTime": "2024-10-25T11:00:00Z", "endTime": "2024-12-02T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34444603"
+        },
+        {
             "name": "The Legend of Galactic Baseballer", "game": "starrail", "image": "galactic-baseballer", "color": "#060434",
             "category": "event2", "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-17T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29125952"
@@ -413,6 +423,16 @@ var eventData = processEventData(JSON.parse(`
             "name": "Sunset Clause", "game": "starrail", "image": "topaz-banner", "color": "#A2B2D4",
             "category": "character2", "startTime": "2024-10-02T11:00:00Z", "endTime": "2024-10-22T13:59:59Z",
             "link": "https://www.hoyolab.com/article/33777781"
+        },
+        {
+            "name": "Eyes of a Ninja", "game": "starrail", "image": "rappa-banner", "color": "#5C64B1",
+            "category": "character", "startTime": "2024-10-23T03:00:00Z", "endTime": "2024-11-13T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/34424519"
+        },
+        {
+            "name": "Epochal Spectrum", "game": "starrail", "image": "danil-banner", "color": "#141E3A",
+            "category": "character2", "startTime": "2024-10-23T03:00:00Z", "endTime": "2024-11-13T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/34424519"
         },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
