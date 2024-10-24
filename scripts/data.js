@@ -38,7 +38,7 @@ var eventTemplates = JSON.parse(`
         {
                 "template": "bountifulCrescendo", "name": "Bountiful Crescendo", "game": "wuwa", 
                 "image": "bountiful-crescendo", "color": "#101115"
-            }
+        }
     ]
 }`);
 
@@ -213,6 +213,16 @@ var eventData = processEventData(JSON.parse(`
             "name": "Of Silken Clouds Woven", "game": "genshin", "image": "char/chiori", "color": "#C77C4A",
             "category": "character2", "startTime": "2024-10-09T03:00:00Z", "endTime": "2024-10-29T16:59:59Z",
             "link": "https://www.hoyolab.com/article/34010550"
+        },
+        {
+            "name": "The Moongrass' Enlightenment", "game": "genshin", "image": "char/nahida", "color": "#81a65c",
+            "category": "character", "startTime": "2024-10-29T17:00:00Z", "endTime": "2024-11-19T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/34470331"
+        },
+        {
+            "name": "Moment of Bloom", "game": "genshin", "image": "char/hutao", "color": "#6e2c2e",
+            "category": "character2", "startTime": "2024-10-29T17:00:00Z", "endTime": "2024-11-19T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/34470331"
         },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
@@ -547,6 +557,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1473"
         },
         {
+            "name": "Infinite Battle Simulation", "game": "wuwa", "image": "infinite-battle", "color": "#1d2d5e",
+            "category": "event4", "startTime": "2024-10-24T09:00:00Z", "endTime": "2024-11-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1509"
+        },
+        {
             "template": "chordCleansing", "category": "event5", 
             "startTime": "2024-08-06T03:00:00Z", "endTime": "2024-08-13T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1099"
@@ -560,6 +575,11 @@ var eventData = processEventData(JSON.parse(`
             "template": "bountifulCrescendo", "category": "character", 
             "startTime": "2024-10-17T03:00:00Z", "endTime": "2024-10-24T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1502"
+        },
+        {
+            "name": "Lollo Campaign - Rerun", "game": "wuwa", "image": "lollo-rerun", "color": "#363a43",
+            "category": "character", "startTime": "2024-10-24T09:00:00Z", "endTime": "2024-11-07T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1509"
         },
         {
             "name": "Prevail the Lasting Night", "game": "wuwa", "image": "jiyan-banner", "color": "#69A5B4",
@@ -595,6 +615,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Till the Sea Turns Clear", "game": "wuwa", "image": "shorekeeper-banner", "color": "#18192B",
             "category": "character2", "startTime": "2024-09-29T05:00:00Z", "endTime": "2024-10-24T08:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1420"
+        },
+        {
+            "name": "Prevail the Lasting Night", "game": "wuwa", "image": "jiyan-banner", "color": "#69A5B4",
+            "category": "character2", "startTime": "2024-10-24T09:00:00Z", "endTime": "2024-11-13T10:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1509"
         },
         {
             "template": "chordCleansing", "category": "event5", 
