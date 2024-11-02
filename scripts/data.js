@@ -140,6 +140,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/34259331"
         },
         {
+            "name": "Feast of Pursuit", "game": "genshin", "image": "feast-pursuit", "color": "#b27696",
+            "category": "event2", "startTime": "2024-11-01T09:00:00Z", "endTime": "2024-11-15T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34613230"
+        },
+        {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
             "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31777295"
@@ -338,6 +343,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Festive Revelry", "game": "starrail", "image": "festive-revelry", "color": "#22283F",
             "category": "event2", "startTime": "2024-09-30T11:00:00Z", "endTime": "2024-10-21T02:59:59Z",
             "link": "https://www.hoyolab.com/article/33739467"
+        },
+        {
+            "name": "Mr. Cold Feet's Pop-Up Shop", "game": "starrail", "image": "popup-shop", "color": "#405378",
+            "category": "event2", "startTime": "2024-10-31T11:00:00Z", "endTime": "2024-11-11T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34613231"
         },
         {
             "name": "Garden of Plenty", "game": "starrail", "image": "garden-plenty", "color": "#383A4B",
@@ -570,6 +580,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Solaris Weather Forecast", "game": "wuwa", "image": "solaris-forecast", "color": "#0B1D29",
             "category": "event5", "startTime": "2024-10-10T09:00:00Z", "endTime": "2024-10-31T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1491"
+        },
+        {
+            "name": "Wuthering Exploration", "game": "wuwa", "image": "wuthering-exploration3", "color": "#45443f",
+            "category": "event5", "startTime": "2024-10-31T09:00:00Z", "endTime": "2024-11-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1562"
         },
         {
             "template": "bountifulCrescendo", "category": "character", 
