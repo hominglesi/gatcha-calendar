@@ -239,6 +239,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-10-01T03:00:00Z", "endTime": "2024-11-01T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2024-11-01T03:00:00Z", "endTime": "2024-12-01T02:59:59Z" },
         {
             "name": "Heartfelt Doodlings", "game": "genshin", "image": "heartfelt-doodlings", "color": "#076288",
             "category": "web", "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T15:59:59Z",
@@ -375,6 +376,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/34134163"
         },
         {
+            "template": "planarFissure", "category": "event3",
+            "startTime": "2024-11-06T03:00:00Z", "endTime": "2024-11-13T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/34739115"
+        },
+        {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
             "category": "character", "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-18T13:59:59Z",
             "link": "https://www.hoyolab.com/article/29127114"
@@ -463,6 +469,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2024-10-28T03:00:00Z", "endTime": "2024-12-09T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
@@ -597,6 +604,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1509"
         },
         {
+            "template": "chordCleansing", "category": "illusiverealm", 
+            "startTime": "2024-11-06T03:00:00Z", "endTime": "2024-11-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1588"
+        },
+        {
             "name": "Prevail the Lasting Night", "game": "wuwa", "image": "jiyan-banner", "color": "#69A5B4",
             "category": "character", "startTime": "2024-05-23T01:00:00Z", "endTime": "2024-06-13T08:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/846"
@@ -652,6 +664,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-09-30T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-10-28T03:00:00Z", "endTime": "2024-11-11T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
