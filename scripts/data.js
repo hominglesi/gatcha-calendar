@@ -120,6 +120,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/34826357"
         },
         {
+            "name": "Claw Convoy", "game": "genshin", "image": "claw-convoy", "color": "#B2D5B7",
+            "category": "event", "startTime": "2024-11-22T09:00:00Z", "endTime": "2024-12-02T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/35053992"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
@@ -407,6 +412,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/34739115"
         },
         {
+            "template": "gardenOfPlenty", "category": "event3",
+            "startTime": "2024-11-22T03:00:00Z", "endTime": "2024-11-29T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/35080323"
+        },
+        {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
             "category": "character", "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-18T13:59:59Z",
             "link": "https://www.hoyolab.com/article/29127114"
@@ -608,7 +618,7 @@ var eventData = processEventData(JSON.parse(`
         {
             "name": "Beyond the Waves", "game": "wuwa", "image": "beyond-waves", "color": "#412a1c",
             "category": "event3", "startTime": "2024-11-21T09:00:00Z", "endTime": "2024-12-05T02:59:59Z",
-            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1607"
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1693"
         },
         {
             "name": "Ragunna Sales Blitz!", "game": "wuwa", "image": "ragunna-sales", "color": "#525655",
