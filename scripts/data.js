@@ -120,9 +120,9 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/34826357"
         },
         {
-            "name": "Claw Convoy", "game": "genshin", "image": "claw-convoy", "color": "#B2D5B7",
-            "category": "event", "startTime": "2024-11-22T09:00:00Z", "endTime": "2024-12-02T02:59:59Z",
-            "link": "https://www.hoyolab.com/article/35053992"
+            "name": "Iktomi Spiritseeking Scrolls", "game": "genshin", "image": "iktomi-scrolls", "color": "#0a285e",
+            "category": "event", "startTime": "2024-11-28T09:00:00Z", "endTime": "2024-12-16T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/35194805"
         },
         {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
@@ -153,6 +153,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Feast of Pursuit", "game": "genshin", "image": "feast-pursuit", "color": "#b27696",
             "category": "event2", "startTime": "2024-11-01T09:00:00Z", "endTime": "2024-11-15T02:59:59Z",
             "link": "https://www.hoyolab.com/article/34613230"
+        },
+        {
+            "name": "Claw Convoy", "game": "genshin", "image": "claw-convoy", "color": "#B2D5B7",
+            "category": "event2", "startTime": "2024-11-22T09:00:00Z", "endTime": "2024-12-02T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/35053992"
         },
         {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
@@ -261,6 +266,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-10-01T03:00:00Z", "endTime": "2024-11-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-11-01T03:00:00Z", "endTime": "2024-12-01T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2024-12-01T03:00:00Z", "endTime": "2025-01-01T02:59:59Z" },
         {
             "name": "Heartfelt Doodlings", "game": "genshin", "image": "heartfelt-doodlings", "color": "#076288",
             "category": "web", "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T15:59:59Z",
@@ -512,6 +518,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "memoryOfChaos", "startTime": "2024-07-22T03:00:00Z", "endTime": "2024-09-02T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-11-25T02:59:59Z" },
+        {   "template": "memoryOfChaos", "startTime": "2024-11-25T03:00:00Z", "endTime": "2025-01-06T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
@@ -758,6 +765,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-10-28T03:00:00Z", "endTime": "2024-11-11T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-11-11T03:00:00Z", "endTime": "2024-11-25T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-11-25T03:00:00Z", "endTime": "2024-12-09T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
