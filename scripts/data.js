@@ -254,6 +254,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-11-20T03:00:00Z", "endTime": "2024-12-10T16:59:59Z",
             "link": "https://www.hoyolab.com/article/35015713"
         },
+        {
+            "name": "Decree of the Deeps", "game": "genshin", "image": "char/neuvillette", "color": "#5b9cbf",
+            "category": "character", "startTime": "2024-12-10T17:00:00Z", "endTime": "2024-12-31T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/35393826"
+        },
+        {
+            "name": "Gentry of Hermitage", "game": "genshin", "image": "char/zhongli", "color": "#83462b",
+            "category": "character2", "startTime": "2024-12-10T17:00:00Z", "endTime": "2024-12-31T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/35393826"
+        },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
@@ -341,6 +351,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Sound Hunt Ninjutsu Inscription", "game": "starrail", "image": "sound-hunt", "color": "#2d3434",
             "category": "event", "startTime": "2024-10-25T11:00:00Z", "endTime": "2024-12-02T02:59:59Z",
             "link": "https://www.hoyolab.com/article/34444603"
+        },
+        {
+            "name": "Cosmic Home Décor Guide", "game": "starrail", "image": "cosmic-home", "color": "#3e4c77",
+            "category": "event", "startTime": "2024-12-04T03:00:00Z", "endTime": "2025-01-13T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/35340664"
         },
         {
             "name": "The Legend of Galactic Baseballer", "game": "starrail", "image": "galactic-baseballer", "color": "#060434",
@@ -512,6 +527,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-11-13T11:00:00Z", "endTime": "2024-12-03T13:59:59Z",
             "link": "https://www.hoyolab.com/article/34892058"
         },
+        {
+            "name": "Eyes to the Stars", "game": "starrail", "image": "sunday-banner", "color": "#32487a",
+            "category": "character", "startTime": "2024-12-04T03:00:00Z", "endTime": "2024-12-25T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/35342567"
+        },
+        {
+            "name": "Swirl of Heavenly Spear", "game": "starrail", "image": "jingyuan-banner", "color": "#afa09a",
+            "category": "character2", "startTime": "2024-12-04T03:00:00Z", "endTime": "2024-12-25T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/35342567"
+        },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
@@ -523,6 +548,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-10-28T03:00:00Z", "endTime": "2024-12-09T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2024-12-09T03:00:00Z", "endTime": "2025-01-20T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
@@ -680,7 +706,7 @@ var eventData = processEventData(JSON.parse(`
         {
             "template": "chordCleansing", "category": "event5", 
             "startTime": "2024-12-05T03:00:00Z", "endTime": "2024-12-12T02:59:59Z",
-            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1607"
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1715"
         },
         {
             "template": "bountifulCrescendo", "category": "event5", 
@@ -766,6 +792,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-10-28T03:00:00Z", "endTime": "2024-11-11T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-11-11T03:00:00Z", "endTime": "2024-11-25T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-11-25T03:00:00Z", "endTime": "2024-12-09T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2024-12-09T03:00:00Z", "endTime": "2024-12-23T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
