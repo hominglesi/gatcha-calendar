@@ -138,6 +138,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/36006504"
         },
         {
+            "name": "On the Trail of Behemoths", "game": "genshin", "image": "trail-behemoths", "color": "#905a3a",
+            "category": "event", "startTime": "2025-01-14T09:00:00Z", "endTime": "2025-01-27T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36301798"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
@@ -412,6 +417,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Cosmic Home Décor Guide", "game": "starrail", "image": "cosmic-home", "color": "#3e4c77",
             "category": "event", "startTime": "2024-12-04T03:00:00Z", "endTime": "2025-01-13T02:59:59Z",
             "link": "https://www.hoyolab.com/article/35340664"
+        },
+        {
+            "name": "Illia Travelogue", "game": "starrail", "image": "illia-travelogue", "color": "#bfb09e",
+            "category": "event", "startTime": "2025-01-15T03:00:00Z", "endTime": "2025-02-24T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36322825"
         },
         {
             "name": "The Legend of Galactic Baseballer", "game": "starrail", "image": "galactic-baseballer", "color": "#060434",
