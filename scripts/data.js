@@ -133,6 +133,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/35621396"
         },
         {
+            "name": "Shuyu's Baffling Beetle Battle Bowl", "game": "genshin", "image": "baffling-beetle", "color": "#171725",
+            "category": "event", "startTime": "2025-01-03T09:00:00Z", "endTime": "2025-01-13T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36006504"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
@@ -176,6 +181,11 @@ var eventData = processEventData(JSON.parse(`
             "template": "leyLineOverflow", "category": "event2",
             "startTime": "2024-12-23T03:00:00Z", "endTime": "2024-12-30T02:59:00Z",
             "link": "https://www.hoyolab.com/article/35743130" 
+        },
+        {
+            "name": "Emblem of Steadfast Valor", "game": "genshin", "image": "steadfast-valor", "color": "#4587a3",
+            "category": "event2", "startTime": "2025-01-09T09:00:00Z", "endTime": "2025-01-20T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36198250"
         },
         {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
@@ -282,6 +292,26 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-12-10T17:00:00Z", "endTime": "2024-12-31T13:59:59Z",
             "link": "https://www.hoyolab.com/article/35393826"
         },
+        {
+            "name": "Ancient Flame Ablaze", "game": "genshin", "image": "char/mavuika", "color": "#872e27",
+            "category": "character", "startTime": "2025-01-01T03:00:00Z", "endTime": "2025-01-21T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/35948976"
+        },
+        {
+            "name": "Starry Night's Whispers", "game": "genshin", "image": "char/citlali", "color": "#8f6fbf",
+            "category": "character2", "startTime": "2025-01-01T03:00:00Z", "endTime": "2025-01-21T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/35948976"
+        },
+        {
+            "name": "The Hearth's Ashen Shadow", "game": "genshin", "image": "char/arlecchino", "color": "#633b3f",
+            "category": "character", "startTime": "2025-01-21T17:00:00Z", "endTime": "2025-02-11T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/35948984"
+        },
+        {
+            "name": "Illuminating Lightning", "game": "genshin", "image": "char/clorinde", "color": "#5243B1",
+            "category": "character2", "startTime": "2025-01-21T17:00:00Z", "endTime": "2025-02-11T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/35948984"
+        },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-07-16T03:00:00Z", "endTime": "2024-08-16T02:59:59Z" },
@@ -290,12 +320,14 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "spiralAbyss", "startTime": "2024-10-16T03:00:00Z", "endTime": "2024-11-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-11-16T03:00:00Z", "endTime": "2024-12-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-12-16T03:00:00Z", "endTime": "2025-01-16T02:59:59Z" },
+        {   "template": "spiralAbyss", "startTime": "2025-01-16T03:00:00Z", "endTime": "2025-02-16T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-10-01T03:00:00Z", "endTime": "2024-11-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-11-01T03:00:00Z", "endTime": "2024-12-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-12-01T03:00:00Z", "endTime": "2025-01-01T02:59:59Z" },
+        {   "template": "imaginariumTheather", "startTime": "2025-01-01T03:00:00Z", "endTime": "2025-02-01T02:59:59Z" },
         {
             "name": "Heartfelt Doodlings", "game": "genshin", "image": "heartfelt-doodlings", "color": "#076288",
             "category": "web", "startTime": "2024-06-20T04:00:00Z", "endTime": "2024-06-26T15:59:59Z",
@@ -428,7 +460,7 @@ var eventData = processEventData(JSON.parse(`
         },
         {
             "name": "Between the Frames...", "game": "starrail", "image": "between-frames", "color": "#252e4b",
-            "category": "event2", "startTime": "2024-12-25T11:00:00Z", "endTime": "2025-01-25T02:59:59Z",
+            "category": "event2", "startTime": "2024-12-25T11:00:00Z", "endTime": "2025-01-06T02:59:59Z",
             "link": "https://www.hoyolab.com/article/35812193"
         },
         {
@@ -470,6 +502,11 @@ var eventData = processEventData(JSON.parse(`
             "template": "planarFissure", "category": "event3",
             "startTime": "2024-12-18T03:00:00Z", "endTime": "2024-12-25T02:59:59Z",
             "link": "https://www.hoyolab.com/article/34739115"
+        },
+        {
+            "template": "realmOfTheStrange", "category": "event3",
+            "startTime": "2025-01-01T03:00:00Z", "endTime": "2025-01-08T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/35974265"
         },
         {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
@@ -588,6 +625,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "memoryOfChaos", "startTime": "2024-09-02T03:00:00Z", "endTime": "2024-10-14T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-11-25T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-11-25T03:00:00Z", "endTime": "2025-01-06T02:59:59Z" },
+        {   "template": "memoryOfChaos", "startTime": "2025-01-06T03:00:00Z", "endTime": "2025-02-17T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
@@ -640,6 +678,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1408"
         },
         {
+            "name": "Traces of Tides", "game": "wuwa", "image": "traces-tides", "color": "#171b2c",
+            "category": "event", "startTime": "2025-01-02T03:00:00Z", "endTime": "2025-02-12T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1912"
+        },
+        {
             "name": "Alloy Smelt", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
             "category": "event2", "startTime": "2024-06-06T09:00:00Z", "endTime": "2024-06-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/836"
@@ -675,6 +718,16 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1607"
         },
         {
+            "name": "Pincer Maneuver Warriors III", "game": "wuwa", "image": "pincer-warriors", "color": "#242f35",
+            "category": "event2", "startTime": "2025-01-02T03:00:00Z", "endTime": "2025-01-23T08:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1912"
+        },
+        {
+            "name": "Pincer Maneuver Warriors IV", "game": "wuwa", "image": "pincer-warriors", "color": "#242f35",
+            "category": "event2", "startTime": "2025-01-23T09:00:00Z", "endTime": "2025-02-12T10:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1912"
+        },
+        {
             "name": "Second Coming of Solaris", "game": "wuwa", "image": "second-coming", "color": "#3E5584",
             "category": "event3", "startTime": "2024-06-13T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
         },
@@ -704,6 +757,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1607"
         },
         {
+            "name": "Tactical Hologram - Phantom Pain", "game": "wuwa", "image": "phantom-pain", "color": "#1f2e59",
+            "category": "event3", "startTime": "2025-01-02T03:00:00Z", "endTime": "2025-02-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1912"
+        },
+        {
             "name": "Wuthering Exploration", "game": "wuwa", "image": "wuthering-exploration", "color": "#3F4764",
             "category": "event4", "startTime": "2024-06-13T09:00:00Z", "endTime": "2024-06-27T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/874"
@@ -712,6 +770,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Tactical Simulacra", "game": "wuwa", "image": "tactical-simulacra", "color": "#3C2E21",
             "category": "event4", "startTime": "2024-07-20T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1055"
+        },
+        {
+            "name": "Although Colors Have No Form", "game": "wuwa", "image": "although-colors", "color": "#606163",
+            "category": "event4", "startTime": "2025-01-09T09:00:00Z", "endTime": "2025-01-30T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1954"
         },
         {
             "name": "Alloy Smelt II", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
@@ -833,6 +896,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-12-12T09:00:00Z", "endTime": "2025-01-01T10:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1770"
         },
+        {
+            "name": "When Silence Tolls", "game": "wuwa", "image": "carlotta-banner", "color": "#e7b27d",
+            "category": "character", "startTime": "2025-01-02T03:00:00Z", "endTime": "2025-01-23T10:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1897"
+        },
+        {
+            "name": "Chromatic Prose", "game": "wuwa", "image": "zhezhi-banner", "color": "#87B3B4",
+            "category": "character2", "startTime": "2025-01-02T03:00:00Z", "endTime": "2025-01-23T10:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1899"
+        },
         {   "template": "towerOfAdversity", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-06-10T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-06-24T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-06-24T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
@@ -849,6 +922,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-11-25T03:00:00Z", "endTime": "2024-12-09T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-12-09T03:00:00Z", "endTime": "2024-12-23T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-12-23T03:00:00Z", "endTime": "2025-01-06T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2025-01-06T03:00:00Z", "endTime": "2025-01-20T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
