@@ -474,6 +474,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/35812193"
         },
         {
+            "name": "Hypogeum Enigma", "game": "starrail", "image": "hypogeum-enigma", "color": "#15141b",
+            "category": "event2", "startTime": "2025-01-22T11:00:00Z", "endTime": "2025-02-24T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36471191"
+        },
+        {
             "name": "Garden of Plenty", "game": "starrail", "image": "garden-plenty", "color": "#383A4B",
             "category": "event3", "startTime": "2024-06-07T03:00:00Z", "endTime": "2024-06-14T02:59:59Z",
             "link": "https://www.hoyolab.com/article/29574847"
@@ -628,6 +633,16 @@ var eventData = processEventData(JSON.parse(`
             "category": "character2", "startTime": "2024-12-25T11:00:00Z", "endTime": "2025-01-14T13:59:59Z",
             "link": "https://www.hoyolab.com/article/35814299"
         },
+        {
+            "name": "Message From Beyond", "game": "starrail", "image": "theherta-banner", "color": "#ab92bd",
+            "category": "character", "startTime": "2025-01-15T03:00:00Z", "endTime": "2025-02-05T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/36341290"
+        },
+        {
+            "name": "Indelible Coterie", "game": "starrail", "image": "indelible-coterie2", "color": "#7f6a53",
+            "category": "character2", "startTime": "2025-01-15T03:00:00Z", "endTime": "2025-02-05T10:59:59Z",
+            "link": "https://www.hoyolab.com/article/36341290"
+        },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
         {   "template": "memoryOfChaos", "startTime": "2024-06-10T03:00:00Z", "endTime": "2024-07-22T02:59:59Z" },
@@ -641,6 +656,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-10-28T03:00:00Z", "endTime": "2024-12-09T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-12-09T03:00:00Z", "endTime": "2025-01-20T02:59:59Z" },
+        {   "template": "apocalypticShadow", "startTime": "2025-01-20T03:00:00Z", "endTime": "2025-03-03T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-05-27T03:00:00Z", "endTime": "2024-07-08T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-07-08T03:00:00Z", "endTime": "2024-08-19T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-08-19T03:00:00Z", "endTime": "2024-09-30T02:59:59Z" },
@@ -933,6 +949,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "towerOfAdversity", "startTime": "2024-12-09T03:00:00Z", "endTime": "2024-12-23T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2024-12-23T03:00:00Z", "endTime": "2025-01-06T02:59:59Z" },
         {   "template": "towerOfAdversity", "startTime": "2025-01-06T03:00:00Z", "endTime": "2025-01-20T02:59:59Z" },
+        {   "template": "towerOfAdversity", "startTime": "2025-01-20T03:00:00Z", "endTime": "2025-02-03T02:59:59Z" },
         {
             "name": "Depths of Illusive Realm", "game": "wuwa", "image": "illusive-realm", "color": "#4E5768",
             "category": "illusiverealm", "startTime": "2024-05-23T03:00:00Z", "endTime": "2024-06-27T02:59:59Z"
