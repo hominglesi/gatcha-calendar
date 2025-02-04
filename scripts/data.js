@@ -193,6 +193,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/36198250"
         },
         {
+            "name": "Overflowing Abundance", "game": "genshin", "image": "overflowing-abundance", "color": "#58351e",
+            "category": "event2", "startTime": "2025-02-03T03:00:00Z", "endTime": "2025-02-10T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36768146"
+        },
+        {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
             "category": "event3", "startTime": "2024-08-06T09:00:00Z", "endTime": "2024-08-19T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31777295"
@@ -326,6 +331,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "spiralAbyss", "startTime": "2024-11-16T03:00:00Z", "endTime": "2024-12-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-12-16T03:00:00Z", "endTime": "2025-01-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2025-01-16T03:00:00Z", "endTime": "2025-02-16T02:59:59Z" },
+        {   "template": "spiralAbyss", "startTime": "2025-02-16T03:00:00Z", "endTime": "2025-03-16T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-07-01T03:00:00Z", "endTime": "2024-08-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-08-01T03:00:00Z", "endTime": "2024-09-01T02:59:59Z" },
         {   "template": "imaginariumTheather", "startTime": "2024-09-01T03:00:00Z", "endTime": "2024-10-01T02:59:59Z" },
@@ -540,6 +546,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/36634082"
         },
         {
+            "name": "Enscrolled Crepusculum", "game": "starrail", "image": "enscrolled-crepusculum", "color": "#133761",
+            "category": "event3", "startTime": "2025-02-03T11:00:00Z", "endTime": "2025-02-24T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/36767294"
+        },
+        {
             "name": "Dusty Trail's Lone Star", "game": "starrail", "image": "boothill-banner", "color": "#988B92",
             "category": "character", "startTime": "2024-05-29T11:00:00Z", "endTime": "2024-06-18T13:59:59Z",
             "link": "https://www.hoyolab.com/article/29127114"
@@ -655,9 +666,19 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/36341290"
         },
         {
-            "name": "Indelible Coterie", "game": "starrail", "image": "indelible-coterie2", "color": "#7f6a53",
+            "name": "Indelible Coterie", "game": "starrail", "image": "indelible-coterie2", "color": "#91bca0",
             "category": "character2", "startTime": "2025-01-15T03:00:00Z", "endTime": "2025-02-05T10:59:59Z",
             "link": "https://www.hoyolab.com/article/36341290"
+        },
+        {
+            "name": "Tailored Fate", "game": "starrail", "image": "aglaea-banner", "color": "#ead8ae",
+            "category": "character", "startTime": "2025-02-05T11:00:00Z", "endTime": "2025-02-25T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/36843932"
+        },
+        {
+            "name": "Indelible Coterie", "game": "starrail", "image": "indelible-coterie3", "color": "#8a2622",
+            "category": "character2", "startTime": "2025-02-05T11:00:00Z", "endTime": "2025-02-25T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/36843932"
         },
         {   "template": "memoryOfChaos", "startTime": "2024-05-13T03:00:00Z", "endTime": "2024-06-19T02:59:59Z", 
             "category": "apocalyptic" },
@@ -679,6 +700,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "pureFiction", "startTime": "2024-09-30T03:00:00Z", "endTime": "2024-11-11T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-11-11T03:00:00Z", "endTime": "2024-12-23T02:59:59Z" },
         {   "template": "pureFiction", "startTime": "2024-12-23T03:00:00Z", "endTime": "2025-02-03T02:59:59Z" },
+        {   "template": "pureFiction", "startTime": "2025-02-03T03:00:00Z", "endTime": "2025-03-17T02:59:59Z" },
         {
             "name": "Smoking Cool — The Universe! Pew! Pew! Grand Challenge!", "game": "starrail", "image": "pew-pew-challenge", "color": "#340704",
             "category": "web", "startTime": "2024-05-31T04:00:00Z", "endTime": "2024-06-07T03:59:59Z",
@@ -824,6 +846,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1954"
         },
         {
+            "name": "Lollo Campaign: Comeback", "game": "wuwa", "image": "lollo-campaign", "color": "#3D3D46",
+            "category": "event4", "startTime": "2025-01-30T09:00:00Z", "endTime": "2025-02-13T02:59:59Z",
+            "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/2066"
+        },
+        {
             "name": "Alloy Smelt II", "game": "wuwa", "image": "alloy-smelt", "color": "#1F1F39",
             "category": "event4", "startTime": "2024-09-16T09:00:00Z", "endTime": "2024-09-28T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1306"
@@ -884,7 +911,7 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1502"
         },
         {
-            "name": "Lollo Campaign - Rerun", "game": "wuwa", "image": "lollo-rerun", "color": "#363a43",
+            "name": "Lollo Campaign - Rerun", "game": "wuwa", "image": "lollo-campaign", "color": "#3D3D46",
             "category": "character", "startTime": "2024-10-24T09:00:00Z", "endTime": "2024-11-07T02:59:59Z",
             "link": "https://wutheringwaves.kurogames.com/en/main/news/detail/1509"
         },
