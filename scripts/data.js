@@ -143,6 +143,11 @@ var eventData = processEventData(JSON.parse(`
             "link": "https://www.hoyolab.com/article/36526234"
         },
         {
+            "name": "Enchanted Tales of the Mikawa Festival", "game": "genshin", "image": "enchanted-tales", "color": "#ae819e",
+            "category": "event", "startTime": "2025-02-14T09:00:00Z", "endTime": "2025-03-03T02:59:59Z",
+            "link": "https://www.hoyolab.com/article/37008951"
+        },
+        {
             "name": "Outside the Canvas", "game": "genshin", "image": "outside-canvas", "color": "#94C5E4",
             "category": "event2", "startTime": "2024-07-29T09:00:00Z", "endTime": "2024-08-08T02:59:59Z",
             "link": "https://www.hoyolab.com/article/31507365"
@@ -196,6 +201,11 @@ var eventData = processEventData(JSON.parse(`
             "name": "Overflowing Abundance", "game": "genshin", "image": "overflowing-abundance", "color": "#58351e",
             "category": "event2", "startTime": "2025-02-03T03:00:00Z", "endTime": "2025-02-10T02:59:59Z",
             "link": "https://www.hoyolab.com/article/36768146"
+        },
+        {
+            "name": "Travelers' Tales: Anthology Chapter", "game": "genshin", "image": "travelers-tales", "color": "#c2bc8a",
+            "category": "event2", "startTime": "2025-02-12T03:00:00Z", "endTime": "2025-03-25T13:59:59Z",
+            "link": "https://www.hoyolab.com/article/36971022"
         },
         {
             "name": "Bing-Bang Finchball", "game": "genshin", "image": "bing-bang", "color": "#9ABC1E",
@@ -321,6 +331,16 @@ var eventData = processEventData(JSON.parse(`
             "name": "Illuminating Lightning", "game": "genshin", "image": "char/clorinde", "color": "#5243B1",
             "category": "character2", "startTime": "2025-01-21T17:00:00Z", "endTime": "2025-02-11T16:59:59Z",
             "link": "https://www.hoyolab.com/article/35948984"
+        },
+        {
+            "name": "Dawn's Drifting Reverie", "game": "genshin", "image": "char/mizuki", "color": "#aa88e8",
+            "category": "character", "startTime": "2025-02-12T03:00:00Z", "endTime": "2025-03-04T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/36971021"
+        },
+        {
+            "name": "Romaritime Meluserenity", "game": "genshin", "image": "char/sigewinne", "color": "#3F8CC4",
+            "category": "character2", "startTime": "2025-02-12T03:00:00Z", "endTime": "2025-03-04T16:59:59Z",
+            "link": "https://www.hoyolab.com/article/36971021"
         },
         {   "template": "spiralAbyss", "startTime": "2024-06-01T03:00:00Z", "endTime": "2024-06-16T02:59:59Z" },
         {   "template": "spiralAbyss", "startTime": "2024-06-16T03:00:00Z", "endTime": "2024-07-16T02:59:59Z" },
@@ -688,6 +708,7 @@ var eventData = processEventData(JSON.parse(`
         {   "template": "memoryOfChaos", "startTime": "2024-10-14T03:00:00Z", "endTime": "2024-11-25T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2024-11-25T03:00:00Z", "endTime": "2025-01-06T02:59:59Z" },
         {   "template": "memoryOfChaos", "startTime": "2025-01-06T03:00:00Z", "endTime": "2025-02-17T02:59:59Z" },
+        {   "template": "memoryOfChaos", "startTime": "2025-02-17T03:00:00Z", "endTime": "2025-03-31T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-06-19T03:00:00Z", "endTime": "2024-08-05T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-08-05T03:00:00Z", "endTime": "2024-09-16T02:59:59Z" },
         {   "template": "apocalypticShadow", "startTime": "2024-09-16T03:00:00Z", "endTime": "2024-10-28T02:59:59Z" },
